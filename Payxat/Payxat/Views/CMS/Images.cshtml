@@ -1,0 +1,200 @@
+﻿
+@{
+    ViewBag.Title = "Images";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+
+@using (Html.BeginForm("Images",
+         "CMS",
+         FormMethod.Post,
+         new { enctype = "multipart/form-data" }))
+{
+
+
+    @Html.AntiForgeryToken()
+
+
+    <!-- Dashboard Counts Section-->
+    <section class="dashboard-counts no-padding-bottom">
+        <div class="container-fluid">
+            <div class="row bg-white has-shadow">
+
+                <!-- Item -->
+                <div class="col-xl-3 col-sm-6">
+
+                    <div class="item d-flex align-items-center" id="Rel-1">
+                        <div class="icon bg-violet"><i class="icon-user"></i></div>
+                        <div class="title">
+                            <span>Background Images</span>
+                            <div class="progress">
+                                <div role="progressbar" style="width: 25%; height: 4px;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" class="progress-bar bg-violet"></div>
+                            </div>
+                        </div>
+                        <div class="number"><strong></strong></div>
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="forms" id="ProductInformation">
+        <div class="container-fluid">
+
+            <div class="row">
+
+                <!-- Horizontal Form-->
+                <div class="col-lg-12">
+
+                    <div class="card">
+                        <div class="card-close">
+                            <div class="dropdown">
+                                <button type="button" id="closeCard1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-ellipsis-v"></i></button>
+                                <div aria-labelledby="closeCard1" class="dropdown-menu dropdown-menu-right has-shadow"><a href="#" class="dropdown-item remove"> <i class="fa fa-times"></i>Close</a><a href="#" class="dropdown-item edit"> <i class="fa fa-gear"></i>Edit</a></div>
+                            </div>
+                        </div>
+                        <div class="card-header  align-items-center ">
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <h3 class="h4">Background Information</h3>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+                        <div class="row">
+                            <div class="col-lg-12">
+
+                                <div class="card-body">
+
+                                    <form>
+                                        <div class="row">
+
+
+
+
+
+
+                                            <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <label class="form-control-label">Home</label>
+                                                    <input type="file" name="home" id="home" class="form-control-file">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <label class="form-control-label">Business</label>
+                                                    <input type="file" name="business" id="business" class="form-control-file">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <label class="form-control-label">Loyalty</label>
+                                                    <input type="file" name="loyalty" id="loyalty" class="form-control-file">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <label class="form-control-label">How it works</label>
+                                                    <input type="file" name="howitworks" id="howitworks" class="form-control-file">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <label class="form-control-label">Pricing</label>
+                                                    <input type="file" name="pricing" id="pricing" class="form-control-file">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <label class="form-control-label">Products</label>
+                                                    <input type="file" name="products" id="products" class="form-control-file">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <label class="form-control-label">Customer acquistion</label>
+                                                    <input type="file" name="customeracquistion" id="customeracquistion" class="form-control-file">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <label class="form-control-label">Loyalty retention</label>
+                                                    <input type="file" name="loyaltyretention" id="loyaltyretention" class="form-control-file">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <label class="form-control-label">Marketing automation</label>
+                                                    <input type="file" name="marketingautomation" id="marketingautomation" class="form-control-file">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <label class="form-control-label">Promotions</label>
+                                                    <input type="file" name="promotions" id="promotions" class="form-control-file">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <label class="form-control-label">Love local network</label>
+                                                    <input type="file" name="lovelocalnetwork" id="lovelocalnetwork" class="form-control-file">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <label class="form-control-label">Small business marketing</label>
+                                                    <input type="file" name="smallbusinessmarketing" id="smallbusinessmarketing" class="form-control-file">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <label class="form-control-label">English</label>
+                                                    <input type="file" name="english" id="english" class="form-control-file">
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="submit" value="ADD" class="btn btn-primary">
+
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Second Col -->
+
+
+
+}

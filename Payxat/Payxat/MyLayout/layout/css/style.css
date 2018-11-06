@@ -1,0 +1,374 @@
+section {
+    padding: 20px;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
+.Main {
+    transition: 0.5s;
+}
+
+.sideMenu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 5;
+    height: 100vh;
+    transition: 0.5s;
+    width: 32%;
+    background: #000;
+    transform: translateX(102%);
+    z-index: 100;
+    overflow-y: scroll;
+}
+    .sideMenu.Active {
+        transform: translateX(0%);
+    }
+.closs {
+    padding: 0px 5px;
+    font-size: 25px;
+    position: absolute;
+    top: 20px;
+    cursor: pointer;
+    z-index: 5;
+    right: 17px;
+    color: #fbbe3b;
+}
+
+.swiper-slide{
+    background-size:100% 100%;
+}
+
+.landing {
+    width: 100%;
+    height: calc( 100vh - 73px );
+    position: relative;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+    color: #Fff;
+}
+
+    .landing h1 {
+        font-weight: bold;
+    }
+
+    .landing p {
+        font-size: 23px;
+        text-align: center;
+    }
+
+.centerTitle {
+    font-size: 30px;
+}
+
+.header {
+    height: 73px;
+    width: 100%;
+    position: relative;
+    background: #fff;
+    box-shadow: 0px 3px 11px -1px rgb(204, 204, 204);
+    z-index:55;
+}
+
+    .header .logo {
+        width: 200px;
+    }
+
+.socialContainer {
+    float: right;
+    padding-top:3px;
+}
+
+    .socialContainer i {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        color: #333;
+        margin-top: 20px;
+        border: 1px solid;
+        text-align: center;
+        transition: 0.5s;
+        margin-right: 5px;
+        font-size: 20px;
+        border-radius: 50%;
+    }
+
+.open {
+    border: none !important;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.socialContainer a:hover i {
+    color: #fff;
+    background: #000;
+  border:1px solid #000;
+}
+
+.landingBG {
+    width: 100%;
+    height: calc(100vh - 73px);
+    position: relative;
+}
+
+/* end landing */
+
+.sectionHeader {
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+.sectionTitle {
+    position: relative;
+    font-size: 28px;
+}
+
+.sectionDesc {
+    font-size: 16px;
+}
+
+.sectionTitle:before {
+    content: '';
+    width: 0%;
+}
+
+.sectionTitle:hover:before {
+    width: 70px;
+    height: 7px;
+    background: #fbbe3b;
+    position: absolute;
+    bottom: -8px;
+    transition: 0.5s;
+    transform: skew(20deg);
+}
+
+.list {
+    list-style: none;
+    padding-top: 5px;
+}
+.notBold li{
+    font-weight:200!important;
+}
+.list li {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+        .list li:before {
+            content: "\f105" !important;
+            font-family: "font awesome 5 free";
+            font-weight: 900;
+            color: #fbbe3b;
+            font-size: 20px;
+            padding-right: 15px;
+            transition: 0.2s;
+        }
+
+        .list li:hover:before {
+            padding-right: 18px;
+        }
+
+.list2 {
+    list-style: none;
+    padding-top: 5px;
+}
+
+    .list2 li {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+        .list2 li:before {
+            content: '\f140';
+            font-family: "font awesome 5 free";
+            font-weight: 900;
+            color: #fbbe3b;
+            font-size: 20px;
+            padding-right: 15px;
+            transition: 0.2s;
+        }
+
+        .list2 li:hover:before {
+            padding-right: 18px;
+        }
+
+.listPadding {
+    padding-left: 39px;
+}
+.sideMenu ul {
+    padding-top: 20%;
+    list-style: none;
+    padding-left: 0;
+}
+    .sideMenu ul li {
+        text-align: right;
+        color: red;
+        padding: 5px 20px 0 10px;
+        font-size: 24px;
+        font-weight: bold;
+        transition:0.5s;
+        cursor:pointer;
+    }
+        .sideMenu ul li a {
+            color: #fbbe3b;
+            transition: 0.5s;
+            width: 100%;
+            font-size: 25px;
+        }
+        .sideMenu ul li:hover > a {
+            color: #ffd884;
+            padding-right: 10px;
+          
+        }
+        
+.footerLogo {
+    width: 200px;
+}
+.floatRight{
+    float:right;
+}
+.footerBG {
+    background: #333;
+}
+.btnColor {
+    background: #fbbe3b;
+    border-color: #fbbe3b;
+    color:#000;
+
+}
+    .btnColor:hover {
+        background: #333;
+        border-color: #fbbe3b;
+        color: #fbbe3b;
+    }
+.footerBtn {
+    margin-bottom: 35px;
+}
+.footerSocialContainer i{
+    font-size: 22px;
+    margin-right: 15px;
+    color: #000;
+    transition:0.5s;
+}
+    .footerSocialContainer i:hover {
+        color: #fbbe3b;
+    }
+footer p, footer h3, footer label {
+    color: #f7f7f7;
+}
+.footerBtn i{
+    margin-left:5px;
+}
+.finalFooter {
+    padding: 10px;
+    text-align: center;
+    margin-top: 5px;
+    background: #171717;
+}
+.sideMenu::-webkit-scrollbar {
+    display: none;
+}
+    li.sideList1:before, li.sideList2:before {
+        content: "\f107";
+        font-family: "font awesome 5 free";
+        font-weight: 900;
+        color: #fbbe3b;
+        position: absolute;
+        left: 10px;
+        transition: 0.5s;
+        transform: rotate(0);
+    }
+.sideMenu ul li:hover::before {
+    color: #ffd884;
+}
+.sideListHidden1, .sideListHidden2 {
+    display: none;
+}
+    .sideListHidden1 a {
+        display: block;
+        color: #fbbe3b;
+        font-size: 22px!important;
+        padding-right:15px;
+        font-weight:500;
+    }
+
+.sideListHidden1 a:hover {
+    color: #ffd884;
+    padding-right:10px;
+}
+
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 20px;
+    background-size: 100% 100%;
+}
+
+@media (max-width: 500px) {
+    .sectionDesc, .sectionTitle ,.sectionHeader {
+        text-align: center !important;
+        display: block;
+    }
+        .sectionTitle{font-size:24px;}
+        .sideMenu {
+            right: 0;
+            width: 100%;
+        }
+    .landing h1 {
+        text-align: center;
+        font-size: 32px;
+    }
+    .header .logo {
+        width: 150px;
+        padding-top: 10px;
+    }
+    .socialContainer i{
+        margin-right:1px;
+    }
+    .sectionTitle:hover:before{
+width:0;
+    }
+    .centerTitle {
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+    .landing p {
+        font-size: 20px;
+        text-align: center;
+        padding: 0 10px;
+    }
+}

@@ -1,0 +1,31 @@
+﻿@using Payxat.Helper
+@{
+    ViewBag.Title = "SmallBusinessMarketing";
+    Layout = "~/Views/Shared/_Master.cshtml";
+}
+
+
+
+
+<div class="landing">
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide" style="background-image:url(@GR.GetResource("imgsmallbusinessmarketing"))">
+                <h1>@GR.GetResource("SmallBusinessMarketingLandingTitle")</h1>
+                <p>@GR.GetResource("SmallBusinessMarketingLandingDesc")</p>
+
+            </div>
+
+
+
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+
+</div>
+<!-- end landing -->

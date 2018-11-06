@@ -1,0 +1,1176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="dunesThirdDesc" xml:space="preserve">
+    <value>testresource</value>
+  </data>
+  <data name="homeFirstTitle" xml:space="preserve">
+    <value>Support locally based businesses </value>
+  </data>
+  <data name="homeFirstDesc" xml:space="preserve">
+    <value>With Payxat, you are very much the part of the initiative that helps, support and sustain local ideas and businesses to grow and prosper.</value>
+  </data>
+  <data name="homeSecondTitle" xml:space="preserve">
+    <value>Access with your phone number</value>
+  </data>
+  <data name="homeSecondDesc" xml:space="preserve">
+    <value>Flexibility to use phone number to access Payxat App or just sign-up at the store that you are in. Rewards await your every purchase. </value>
+  </data>
+  <data name="homeThirdTitle" xml:space="preserve">
+    <value>Lucrative rewards programme </value>
+  </data>
+  <data name="homeThirdDesc" xml:space="preserve">
+    <value>Have memorable birthdays, parties, holidays and more with our partners across varieties of industry sectors including dining, shopping, travel, cafe and entertainment. </value>
+  </data>
+  <data name="homeFourthTitle" xml:space="preserve">
+    <value>Support businesses in and around your neighbourhood</value>
+  </data>
+  <data name="homeFourthDesc" xml:space="preserve">
+    <value>Get the best out of your shopping experience with bona-fide support &amp; contribution to your own local business community. </value>
+  </data>
+  <data name="homeLandingTitle" xml:space="preserve">
+    <value>Payxat means Business</value>
+  </data>
+  <data name="homeLandingDesc" xml:space="preserve">
+    <value>Be part of the revolution that empowers locally based businesses to acquire more&amp; more customers. We have arrived &amp; we are everywhere!</value>
+  </data>
+  <data name="loyaltyLandingTitle" xml:space="preserve">
+    <value>Boost your business with Payxat</value>
+  </data>
+  <data name="loyaltyLandingDesc" xml:space="preserve">
+    <value>Promotional and marketing campaigns that is customised and tailor-made to suit your business requirements. SMS, Email, App based notifications coupled with our passion &amp; dedication to bring in more customers. </value>
+  </data>
+  <data name="loyaltySecondTitle" xml:space="preserve">
+    <value>Boost your revenue</value>
+  </data>
+  <data name="loyaltySecondDesc" xml:space="preserve">
+    <value>Broadcast your special offers &amp; promotions with Payxat system that is specially been developed just to bring in more customers to your store. </value>
+  </data>
+  <data name="loyaltyThirdTitle" xml:space="preserve">
+    <value>Long-lasting relationship</value>
+  </data>
+  <data name="loyaltyThirdDesc" xml:space="preserve">
+    <value>Payxat rewards are not just satisfying, it also offers lifelong relationship between business and their customers.</value>
+  </data>
+  <data name="loyaltyFourthTitle" xml:space="preserve">
+    <value>Rewards program to suit your business</value>
+  </data>
+  <data name="loyaltyFourthDesc" xml:space="preserve">
+    <value>With our unique and made-to-order rewards program, your customer will just savour their shopping experience. </value>
+  </data>
+  <data name="loyaltyFifthTitle" xml:space="preserve">
+    <value>Figures speak for themselves</value>
+  </data>
+  <data name="loyalty6Title" xml:space="preserve">
+    <value>We help locally based businesses to grow &amp; thrive</value>
+  </data>
+  <data name="loyalty7Title" xml:space="preserve">
+    <value>We have complete all-in-one solutions to boost your sales in just a few clicks!</value>
+  </data>
+  <data name="loyalty8Title" xml:space="preserve">
+    <value>Loyalty Program</value>
+  </data>
+  <data name="loyalty8Desc" xml:space="preserve">
+    <value>Shower your customers with goodies and benefits to boost their spirits!</value>
+  </data>
+  <data name="loyalty9Title" xml:space="preserve">
+    <value>All-in-one Solutions</value>
+  </data>
+  <data name="loyalty9Desc" xml:space="preserve">
+    <value>Automated system that sends out custom-made rewards which in-turn brings in more customers.</value>
+  </data>
+  <data name="loyalty10Title" xml:space="preserve">
+    <value>Business Development</value>
+  </data>
+  <data name="loyalty10Desc" xml:space="preserve">
+    <value>Explore the potential to tap your tech-savvy customers with Payxat.</value>
+  </data>
+  <data name="loyalty11Title" xml:space="preserve">
+    <value>Marketing &amp; Promotions</value>
+  </data>
+  <data name="loyalty11Desc" xml:space="preserve">
+    <value>Promote and market all your offers and rewards with ease and peace of mind.</value>
+  </data>
+  <data name="bussinessLandingTitle" xml:space="preserve">
+    <value>Reward with Loyalty</value>
+  </data>
+  <data name="bussinessLandingDesc" xml:space="preserve">
+    <value>Share the benefits of your loyalty program with your customers. Loyalty rewards can boost your business and also customer confidence in your business. </value>
+  </data>
+  <data name="bussinessFirstTitle" xml:space="preserve">
+    <value>Sad, but true Majority of your customer do not return after their initial visit</value>
+  </data>
+  <data name="bussinessFirstFirstTitle" xml:space="preserve">
+    <value>With Payxat, you can only expect exponential increase in sales</value>
+  </data>
+  <data name="bussinessSecondTitle" xml:space="preserve">
+    <value>Payxat offers global technology to local businesses</value>
+  </data>
+  <data name="bussinessSecondDesc" xml:space="preserve">
+    <value>We bring you the best in technology in order to run and manage your rewards program at the touch of the button. Establish firm relationship with your customers and delight them with tempting offers and promotion with our rewards program.</value>
+  </data>
+  <data name="bussinessThirdTitle" xml:space="preserve">
+    <value>Multiply your revenue with return customers</value>
+  </data>
+  <data name="bussinessThirdDesc" xml:space="preserve">
+    <value>A study conducted by a leading business school found out that, just a few percent of return customers can make a huge difference to the overall revenue.</value>
+  </data>
+  <data name="bussinessFourthTitle" xml:space="preserve">
+    <value>Successful companies invest in rewards programs</value>
+  </data>
+  <data name="bussinessFourthDesc" xml:space="preserve">
+    <value>Most of the Fortune 500 companies deploy some sort of rewards programs in order to retain and expand customer their base.</value>
+  </data>
+  <data name="howitworksLandingTitle" xml:space="preserve">
+    <value>Watch your business grow</value>
+  </data>
+  <data name="howitworksLandingDesc" xml:space="preserve">
+    <value>Get rewards program from Payxat for first-hand experience in the true power of a well-built loyalty eco-system.</value>
+  </data>
+  <data name="howitworksSecondTitle" xml:space="preserve">
+    <value>How Payxat works for your business?</value>
+  </data>
+  <data name="howitworksSecondDesc" xml:space="preserve">
+    <value>Our state-of-the-art all-in-one program is built to get more customers into your stores.</value>
+  </data>
+  <data name="howitworksThirdTitle" xml:space="preserve">
+    <value>Get to know your customers</value>
+  </data>
+  <data name="howitworksThirdDesc" xml:space="preserve">
+    <value>Rewards program by Payxat is not only easy to learn, master and use but it also helps you in connecting with your customers in a more personal level, including getting to know their names, gender, age groups, preferences and so on. </value>
+  </data>
+  <data name="howitworksFourthTitle" xml:space="preserve">
+    <value>Promotional campaign that are crafted to perfection </value>
+  </data>
+  <data name="howitworksFourthDesc" xml:space="preserve">
+    <value>We have incorporated in-app notification that pop-up just in-time for your customers to take notice of your special offers. Welcome new customers, celebrate anniversaries &amp; birthdays, plus conduct a host of other activities with your valued customers. </value>
+  </data>
+  <data name="howitworks8Title" xml:space="preserve">
+    <value>Everyone loves promotions, hot deals and rewards</value>
+  </data>
+  <data name="howitworks8Desc" xml:space="preserve">
+    <value>Payxat is designed to help you bring more and more customers to your business and provides value for money in terms of return customers. Also, our application provides you with a detailed report on customer’s activity, redeems and new sign-up. </value>
+  </data>
+  <data name="Manage rewards &amp; promotions effortlessly" xml:space="preserve">
+    <value>With our far-reaching rewards program that empowers your customers with additional spending power that showers them with benefits like gifts, rewards-points, trips, passes etc. with every purchase. </value>
+  </data>
+  <data name="howitworks9Title" xml:space="preserve">
+    <value>Amplify customer visits even with either one-time or seasonal promotions</value>
+  </data>
+  <data name="howitworks9Desc" xml:space="preserve">
+    <value>Make your promotions a one-time, regular or even seasonal affair with Payxat promotional tool. Also, you can make your promotional more meaningful by choosing and profiling your targeted customers.</value>
+  </data>
+  <data name="howitworks10Title" xml:space="preserve">
+    <value>Sign-in and also register with just your phone number</value>
+  </data>
+  <data name="howitworks10Desc" xml:space="preserve">
+    <value>Add new customers to your loyalty program in just a few seconds. New customers can sign-up at the store or from the comfort of their own phone. Our mobile app can handle the rush that you might have to otherwise encounter during the sign-up procedure at the store.</value>
+  </data>
+  <data name="pricingLandingTitle" xml:space="preserve">
+    <value>Attract new customers </value>
+  </data>
+  <data name="pricingLandingDesc" xml:space="preserve">
+    <value>Acquire new customers with Payxat</value>
+  </data>
+  <data name="pricingSecondTitle" xml:space="preserve">
+    <value>Meet your next best customer</value>
+  </data>
+  <data name="pricingSecondDesc" xml:space="preserve">
+    <value>Payxat sustains your business by generating new customers to promote healthy growth of your business. With little or no efforts, we help you in your quest for customer acquisition, just a few taps and we launch your business. </value>
+  </data>
+  <data name="pricingFirstTitle" xml:space="preserve">
+    <value>Flash your rewards</value>
+  </data>
+  <data name="pricingThirdTitle" xml:space="preserve">
+    <value>Push to their device</value>
+  </data>
+  <data name="pricingThirdDesc" xml:space="preserve">
+    <value>Customers that are in your neighbourhood can now view the details of your business that will be flashed on their screens and Payxat will provide you with genuine lead for customer acquisition when the customer shows interest in the rewards that was shown on his screen. </value>
+  </data>
+  <data name="pricingFourthTitle" xml:space="preserve">
+    <value>Locate by App and Website</value>
+  </data>
+  <data name="pricingFourthDesc" xml:space="preserve">
+    <value>Accessing Payxat by App or by Website will provide detailed info about the nearby businesses, including map and driving details, this is the Payxat way of making your business more visible to your potential customers and as an added benefit, we also broadcast about your business via SMS. </value>
+  </data>
+  <data name="pricing8Title" xml:space="preserve">
+    <value>Automate the process</value>
+  </data>
+  <data name="pricing8Desc" xml:space="preserve">
+    <value>Once the potential or even your regular customer is made aware about the rewards, Payxat program automatically engages them to accept the rewards and also attract them to your business, either as new or repeat customer. </value>
+  </data>
+  <data name="pricing9Title" xml:space="preserve">
+    <value>Let your customers speak for you</value>
+  </data>
+  <data name="pricing9Desc" xml:space="preserve">
+    <value>If any of your satisfied customer wants to spread a word or two about your business, Payxat ‘Word of Mouth’ option packs one of the most trusted and tested form of marketing – the recommendation of your happy customer to their family and friends. Acquire the true power of customer loyalty with Payxat. </value>
+  </data>
+  <data name="pricing6Title" xml:space="preserve">
+    <value>Match-making within your customer’s network</value>
+  </data>
+  <data name="pricing10Title" xml:space="preserve">
+    <value>Another feature that is aimed at acquiring new customers </value>
+  </data>
+  <data name="pricing10Desc" xml:space="preserve">
+    <value>With the addition of every 20 new customers to your Payxat rewards program within a span of 7-days will activate our specially built broadcast service that will be sent out to other potential customers of your neighbourhood that might have interested in your business. This is just one of the many features that we have in-store to help you acquire new customers and boost your business. </value>
+  </data>
+  <data name="loyaltyretentionLandingTitle" xml:space="preserve">
+    <value>Build customer loyalty with Payxat</value>
+  </data>
+  <data name="loyaltyretentionLandingDesc" xml:space="preserve">
+    <value>Loyal relationship &amp; trust with your customers is what Payxat is all about</value>
+  </data>
+  <data name="loyaltyretentionSecondTitle" xml:space="preserve">
+    <value>Your business needs to retain loyal and regular customers</value>
+  </data>
+  <data name="Your business needs to retain loyal and regular customers" xml:space="preserve">
+    <value>Send offers that convert your first-time visitors to regular, having someone that that revisits your business is more profitable than having to find new customers every now and then. With Payxat, you can personalise rewards and offers that will not only delight &amp; surprise your customers but also pave the way for them to revisit you again and again. </value>
+  </data>
+  <data name="loyaltyretentionSecondDesc" xml:space="preserve">
+    <value>Send offers that convert your first-time visitors to regular, having someone that that revisits your business is more profitable than having to find new customers every now and then. With Payxat, you can personalise rewards and offers that will not only delight &amp; surprise your customers but also pave the way for them to revisit you again and again. </value>
+  </data>
+  <data name="loyaltyretentionThirdTitle" xml:space="preserve">
+    <value>Rewards that brings value to your business </value>
+  </data>
+  <data name="loyaltyretentionThirdDesc" xml:space="preserve">
+    <value>Be creative and start offering rewards that are unique and also entertaining for your customers. Rewards can include anything from free delivery, all-you-can-eat option or anything that you can think about. With Payxat, you are just free to offer any sort of rewards that is admirable for your business and customers.</value>
+  </data>
+  <data name="loyaltyretentionFourthTitle" xml:space="preserve">
+    <value>Data and results that are displayed in real time</value>
+  </data>
+  <data name="loyaltyretentionFourthDesc" xml:space="preserve">
+    <value>Manage, analyse and act on the basis of the data that can be made available at the click of the button, put your marketing plans into action right from the Payxat dashboard. Information and data that is crucial for smooth functioning of your rewards program is at your fingertips, 24/7. </value>
+  </data>
+  <data name="loyaltyretention8Title" xml:space="preserve">
+    <value>Well-organized Loyalty program</value>
+  </data>
+  <data name="loyaltyretention8Desc" xml:space="preserve">
+    <value>Structured and easy to use, Payxat loyalty program offers features that are simple but powerful enough to put your marketing plans into action.</value>
+  </data>
+  <data name="marketingautomationLandingTitle" xml:space="preserve">
+    <value>Automate your marketing tasks</value>
+  </data>
+  <data name="marketingautomationLandingDesc" xml:space="preserve">
+    <value>Rewards program that does smart things for your marketing team </value>
+  </data>
+  <data name="marketingautomationSecondTitle" xml:space="preserve">
+    <value>Automation is the new norm</value>
+  </data>
+  <data name="marketingautomationSecondDesc" xml:space="preserve">
+    <value>Payxat is fully automated to make your business run efficiently and smoothly. Smartly designed system means, the program sends out offers to your customers that they love to receive. Everything is customised in an automated process to the targeted audience based on their buying habits and preferences.</value>
+  </data>
+  <data name="lovelocalnetworkLandingTitle" xml:space="preserve">
+    <value>Join Payxat LocalBusiness Network</value>
+  </data>
+  <data name="lovelocalnetworkLandingDesc" xml:space="preserve">
+    <value>Find rewards and promotion right in your neighbourhood</value>
+  </data>
+  <data name="lovelocalnetworkFirstTitle" xml:space="preserve">
+    <value>If you are a local, you will certainly love LocalBusiness Network</value>
+  </data>
+  <data name="lovelocalnetworkSecondTitle" xml:space="preserve">
+    <value>Payxat Mobile Application for LocalBusiness</value>
+  </data>
+  <data name="lovelocalnetworkSecondDesc" xml:space="preserve">
+    <value>Attract locals to the businesses in their neighbourhood with tempting deals and offers. Well, this is possible now with Payxat mobile application which highlight nearby businesses in real-time with matching offers. Also, with the app, it is easy to track rewards points, redeem offers, receive new offers and most important of all, Payxat application will help you to make you the right decision at the right time. </value>
+  </data>
+  <data name="lovelocalnetworkThirdTitle" xml:space="preserve">
+    <value>Navigate to businesses in your neighbourhood with Payxat</value>
+  </data>
+  <data name="lovelocalnetworkThirdDesc" xml:space="preserve">
+    <value>Find anything that suits you in your neighbourhood, browse establishments surrounding you with ease and confidence and to aid you further in discovering new places to shop, dine and entertain, we welcome you to explore Payxat Business Directory. </value>
+  </data>
+  <data name="lovelocalnetworkFourthTitle" xml:space="preserve">
+    <value>Discover and rediscover more with mobile app and business directory</value>
+  </data>
+  <data name="lovelocalnetworkFourthDesc" xml:space="preserve">
+    <value>Payxat is the platform for your customers to be informed and involved in the events and promotions that business conduct in order to target more customers. We offer you the means to locate, connect and contact with your customers that are in your own neighbourhood. </value>
+  </data>
+  <data name="lovelocalnetwork8Title" xml:space="preserve">
+    <value>Small businesses prefer to be on Payxat</value>
+  </data>
+  <data name="lovelocalnetwork8Desc" xml:space="preserve">
+    <value>Simplicity, ease of usage and strong local presence is what makes Payxat favourite amongst small and mid-sized businesses. The power of Payxat application to get matching tech-savvy and young customers to notice and take interest in your business makes Payxat as a most preferred and robust business and marketing tool in the local community.  </value>
+  </data>
+  <data name="SmallBusinessMarketingLandingTitle" xml:space="preserve">
+    <value>You are visible – Your customers can now notice your business with Payxat </value>
+  </data>
+  <data name="SmallBusinessMarketingLandingDesc" xml:space="preserve">
+    <value>Payxat is packed with features that brings neighbourhood customers at your doorstep</value>
+  </data>
+  <data name="englishLandingTitle" xml:space="preserve">
+    <value>Join Payxat partnership programme</value>
+  </data>
+  <data name="englishLandingDesc" xml:space="preserve">
+    <value>We offer commission for every competent business that you refer</value>
+  </data>
+  <data name="englishSecondTitle" xml:space="preserve">
+    <value>About Payxat Program</value>
+  </data>
+  <data name="englishSecondDesc" xml:space="preserve">
+    <value>Our partnership programme is your ladder to earn attractive commissions for each merchant that you introduce to Payxat and with tools that are set in place, you can track your earnings with ease! We love to help our well-wishers with rewards and incentives and we are here to help your business scale new heights in terms of growth, revenue and customers base. Also, our quest to boost locally based business is what distinguishes Payxat from the rest, we are here to drive business into your neighbourhood stores with our robust application. </value>
+  </data>
+  <data name="PrivacyFirstTitle" xml:space="preserve">
+    <value>Privacy Policy</value>
+  </data>
+  <data name="PrivacyThirdTitle" xml:space="preserve">
+    <value>Information with Payxat</value>
+  </data>
+  <data name="PrivacyThirdDesc" xml:space="preserve">
+    <value>When you as an user interact (either by signing up with Payxat or by visiting the website or applications) with the website or the application or use or be part of the services that application or the platform provide (including merchant services), Payxat might collect and gather information from the user. </value>
+  </data>
+  <data name="PrivacyFourthTitle" xml:space="preserve">
+    <value>Information from users </value>
+  </data>
+  <data name="PrivacyFourthDesc" xml:space="preserve">
+    <value>User data might range from the information that the user voluntarily provides during the registration process, when the user fills the contact us form, takes part in surveys, contacts customer support etc and this data include date of birth, name, gender, phone number, email address, mailing address, phone number, location, device type, username including the information that is provided in surveys, questionnaires, emails, customer service requests etc. Information that you might exchange via merchants related to rewards might include data such as your purchase history, total amount that was spent, rewards earned / redeemed, purchase date, transaction details including credit card details. The data related to rewards are essential for smooth functioning of Payxat rewards programme.  By agreeing to this privacy policy, you thereby acknowledge, authorise, approve and agree that Payxat not only collects and stores user data, but also transmits or transfer the data to centralised storage (data server) or data centre at one of the Payxat approved, secure and certified facility or premises. </value>
+  </data>
+  <data name="Information extracted by Payxat Platform" xml:space="preserve">
+    <value>Payxat as a website and application deploys cookies, log files, web beacons, tags and other forms of tracking technologies to automatically gather and collect some kind of user data including information that include total number of measures, user statistics and also information that are related to the user’s habits and preferences. User’s data is usually used by the Payxat platform for business intelligence, report generation and for usage by the operations team to provide optimum and enhanced user experience. Some part of the user data might be shared with certain third party application in order to provide the user with the required or desired output.</value>
+  </data>
+  <data name="Privacy8Title" xml:space="preserve">
+    <value>Information collected by cookies</value>
+  </data>
+  <data name="Privacy8Desc" xml:space="preserve">
+    <value>Cookies are used on the Payxat platform to provide convenience to the user, for example, enabling cookies might save time as the browser retains login credentials and form data. In case, if any of Payxat users do not wish to make use of this functionality, users are free to turn it off in their browser settings.</value>
+  </data>
+  <data name="Privacy9Title" xml:space="preserve">
+    <value>Information collected by third party services</value>
+  </data>
+  <data name="Privacy9Desc" xml:space="preserve">
+    <value>Apart from gathering user information via website, applications and device data, Payxat might also collect user data from third party services that is linked with the Payxat platform, including login credentials used in case, if the user choose to login to their account with social media accounts.  In case of providing data to the third party services directly, like login-in by using social media accounts, third party might store your data in their system and the user data (of Payxat) is subjected to the privacy policies of the relevant third party and Payxat is not responsible and shall not have any kind of liability or accountability for the privacy and security practices of any third party service providers.</value>
+  </data>
+  <data name="Privacy10Title" xml:space="preserve">
+    <value>Information that are used</value>
+  </data>
+  <data name="Privacy10Desc" xml:space="preserve">
+    <value>All kind of data and information provided by the user and also extracted by the Payxat platform will be put to productive usage in accordance with privacy policies as mentioned in this document. Also, if any particular information shared by the user for some specific purpose, the information will be used only for the purpose that was intended. Also, Payxat might use certain information of its users to contact or reach them in order to inform them about the additional services or features that might be of interest to the Payxat users. </value>
+  </data>
+  <data name="Privacy11Title" xml:space="preserve">
+    <value>Information user can choose not to share</value>
+  </data>
+  <data name="Privacy11Desc" xml:space="preserve">
+    <value>Some information can be shared with third party for marketing or promotional purpose and this will be done with user consent and Payxat will also have the option to opt out of marketing or promotional campaign. </value>
+  </data>
+  <data name="Privacy12Title" xml:space="preserve">
+    <value>Information that are not covered</value>
+  </data>
+  <data name="Privacy12Desc" xml:space="preserve">
+    <value>Certain information such as general emails, postings, direct messages, product development ideas and suggestions, complaints and other kind of unsolicited information will be categorised as non-confidential and will not be subjected to the privacy policy of Payxat and Payxat in-turn is free to use, distribute, reproduce, disclose and advertise it without any kind of limitation and restrictions.</value>
+  </data>
+  <data name="Privacy13Title" xml:space="preserve">
+    <value>Underage information</value>
+  </data>
+  <data name="Privacy13Desc" xml:space="preserve">
+    <value>Payxat does not encourage children to register as user and in case, if it is detected that the database contains information that is submitted by children that are aged 13 and below, Payxat will immediately all the data of underage users. </value>
+  </data>
+  <data name="Privacy14Title" xml:space="preserve">
+    <value>Security of user information</value>
+  </data>
+  <data name="Privacy14Desc" xml:space="preserve">
+    <value>Payxat as a system, website, application and platform is designed to be safe, secure and user friendly with strict guidelines for data security. However, if any kind of data leak, data loss, data misuse, unauthorised usage and access to the system, external hacking or total destruction of the data takes place, Payxat is not liable or responsible for any kind of lapse in data security and user need to provide data and information to Payxat at the own free will and the data that they might provide might be subjected to all kind of attacks on the World Wide Web. </value>
+  </data>
+  <data name="Privacy15Title" xml:space="preserve">
+    <value>Privacy Policy might be subjected to changes</value>
+  </data>
+  <data name="Privacy15Desc" xml:space="preserve">
+    <value>Payxat is constantly evolving and refining from time to time and as per the need and requirement of merchant, user, third party and the general market conditions and thereby, the clauses in this privacy policy will have to be modified accordingly. Payxat reserves complete right and authority to revise, modify, alter or update this privacy policy from time to time, with or without prior notice. You as a user is advised to review this document periodically and you continued usage of Payxat service is your acceptance of our revised privacy policy agreement (if any). </value>
+  </data>
+  <data name="Privacy16Title" xml:space="preserve">
+    <value>Accessing user information</value>
+  </data>
+  <data name="Privacy16Desc" xml:space="preserve">
+    <value>You are free to contact us if you find your information on the Payxat platform incorrect and we will update it accordingly. Also, you can correct or modify information related to your account details by accessing your Payxat account. </value>
+  </data>
+  <data name="pricing11Title" xml:space="preserve">
+    <value>Payxat Customer Acquisition</value>
+  </data>
+  <data name="pricing11Desc" xml:space="preserve">
+    <value>We welcome businesses that are spread across the neighbourhood and beyond to take advantage of the business potential that comes bundled with Payxat business acquisition tools. Right from identifying your potential customers to getting them involved with your in-store activities, we offer you smart mechanism to boost your business. </value>
+  </data>
+  <data name="pricing11ListHeader1" xml:space="preserve">
+    <value>Acquire new customers through Payxat</value>
+  </data>
+  <data name="pricing11ListHeader2" xml:space="preserve">
+    <value>Maintain productive and healthy relationship with your customers </value>
+  </data>
+  <data name="pricing11ListHeader3" xml:space="preserve">
+    <value>Retain valuable customer and increase their frequency of visits </value>
+  </data>
+  <data name="pricing12Title" xml:space="preserve">
+    <value>Features</value>
+  </data>
+  <data name="pricing12ListHeader1" xml:space="preserve">
+    <value>Share the good stuff</value>
+  </data>
+  <data name="pricing12ListHeader2" xml:space="preserve">
+    <value>Rewards by SMS</value>
+  </data>
+  <data name="pricing12ListHeader3" xml:space="preserve">
+    <value>Once-click Share</value>
+  </data>
+  <data name="pricing12ListHeader4" xml:space="preserve">
+    <value>Share or not to share</value>
+  </data>
+  <data name="pricing12ListDesc4" xml:space="preserve">
+    <value>Payxat not only offers an easy option to share rewards, you can also choose rewards and promo that comes with an option of not to share. Our dashboard offers you to keep sharing on as default or in case, if you need to, to disable the sharing option from the rewards that are sent out. </value>
+  </data>
+  <data name="pricing12ListDesc3" xml:space="preserve">
+    <value>Payxat is just one step ahead in enabling your customers to share rewards that they receive on their devices. Sharing is just made easy and effortless with the express ‘Share’ button that comes with every new reward. </value>
+  </data>
+  <data name="pricing12ListDesc2" xml:space="preserve">
+    <value>All kind of offers and rewards that the customer receives via SMS will contain the link to the actual offer. Receiving link in the SMS will enable the recipient to share offers with family and friends by just forwarding that particular SMS. </value>
+  </data>
+  <data name="pricing12ListDesc1" xml:space="preserve">
+    <value>We encourage your customer to share the rewards that they receive, sharing to family and friends is another way of cementing loyalty and forging new relationships with your potential customers. </value>
+  </data>
+  <data name="pricing13Title" xml:space="preserve">
+    <value>Feel free to compete with more established players</value>
+  </data>
+  <data name="pricing13ListHeader1" xml:space="preserve">
+    <value>7X more effective than social media advertisement </value>
+  </data>
+  <data name="pricing13ListHeader2" xml:space="preserve">
+    <value>4X more effective than search engine advertisement </value>
+  </data>
+  <data name="pricing13ListHeader3" xml:space="preserve">
+    <value>Relax and feel at ease with our automated program</value>
+  </data>
+  <data name="pricingg11Title" xml:space="preserve">
+    <value>Flexible &amp; attractive pricing plans to enhance your business, customer base &amp; revenue</value>
+  </data>
+  <data name="pricingg11ListHeader1" xml:space="preserve">
+    <value>Our experts can help you to connect with your customers</value>
+  </data>
+  <data name="pricingg11ListHeader2" xml:space="preserve">
+    <value>Get started within 48 hours</value>
+  </data>
+  <data name="pricingg11ListHeader3" xml:space="preserve">
+    <value>Go online and see your business grow from day one</value>
+  </data>
+  <data name="pricingg12Title" xml:space="preserve">
+    <value>Choose the pricing package that fits your bill and features that can help you to build your business </value>
+  </data>
+  <data name="pricingg12ListHeader1" xml:space="preserve">
+    <value>Basic</value>
+  </data>
+  <data name="pricingg12ListHeader2" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="pricingg12ListHeader3" xml:space="preserve">
+    <value>Professional</value>
+  </data>
+  <data name="pricingg12ListDesc1" xml:space="preserve">
+    <value>For businesses that are looking forward to make an impact.</value>
+  </data>
+  <data name="pricingg12ListDesc2" xml:space="preserve">
+    <value>For businesses that are seeking to expand in to new markets and territories.</value>
+  </data>
+  <data name="pricingg12ListDesc3" xml:space="preserve">
+    <value>For businesses that are spread across a wide geographical area with huge customer base and fan following.</value>
+  </data>
+  <data name="pricinggLandingTitle" xml:space="preserve">
+    <value>More about Plans &amp; Pricing</value>
+  </data>
+  <data name="pricinggLandingDesc" xml:space="preserve">
+    <value>Payxat offers economical rates and competitive pricing plans to help you find package that fits your business requirements &amp; budget.</value>
+  </data>
+  <data name="productsLandingTitle" xml:space="preserve">
+    <value>The next big thing is right here</value>
+  </data>
+  <data name="productsLandingDesc" xml:space="preserve">
+    <value>Products that can deliver instant results</value>
+  </data>
+  <data name="products1Title" xml:space="preserve">
+    <value>No physical loyalty cards</value>
+  </data>
+  <data name="products11Title" xml:space="preserve">
+    <value>Yep, we do not issue any sort of cards, that’s too old-fashioned for us!</value>
+  </data>
+  <data name="products11ListHeader1" xml:space="preserve">
+    <value>No more physical cards, loyalty program can be accessed with just your phone number</value>
+  </data>
+  <data name="products11ListHeader2" xml:space="preserve">
+    <value>Use our App to sign-up with your phone number or provide your phone number during check-out at the store</value>
+  </data>
+  <data name="products11ListHeader3" xml:space="preserve">
+    <value>Keep track of your spending, rewards and points earned with just a few clicks</value>
+  </data>
+  <data name="products2Title" xml:space="preserve">
+    <value>Stay in touch and stay connected with your business &amp; customers</value>
+  </data>
+  <data name="products3Title" xml:space="preserve">
+    <value>Access and manage Payxat from your phone, tablets or laptop</value>
+  </data>
+  <data name="products3ListHeader1" xml:space="preserve">
+    <value>We offer you detailed information about your business including total number of new sign-up, points earned, offers redeemed etc. </value>
+  </data>
+  <data name="products4Title" xml:space="preserve">
+    <value>Payxat App is all you need</value>
+  </data>
+  <data name="products31ListHeader2" xml:space="preserve">
+    <value>Manage your storefront promotion while you are away from you store, Payxat for Merchant has all the right tools to manage everything on the go</value>
+  </data>
+  <data name="products5Title" xml:space="preserve">
+    <value>Easy, simple and straightforward way of offering rewards to your customers </value>
+  </data>
+  <data name="products5ListHeader1" xml:space="preserve">
+    <value>Procedure of new sign-up with the app or at the store is an effortless process</value>
+  </data>
+  <data name="products5ListHeader2" xml:space="preserve">
+    <value>Automatically programmed to award and reward loyalty points to your customers </value>
+  </data>
+  <data name="products6Title" xml:space="preserve">
+    <value>Digital Marketing – Simplified!</value>
+  </data>
+  <data name="products12Title" xml:space="preserve">
+    <value>With Payxat, you can connect with every customer of your with just a few taps</value>
+  </data>
+  <data name="products12ListHeader1" xml:space="preserve">
+    <value>Single-click Boost: </value>
+  </data>
+  <data name="products12ListHeader2" xml:space="preserve">
+    <value>Fully Automatic: </value>
+  </data>
+  <data name="products12ListHeader3" xml:space="preserve">
+    <value>Safe &amp; Secure: </value>
+  </data>
+  <data name="products12ListDesc1" xml:space="preserve">
+    <value>With this unique feature of ‘Single-click Boost’ Payxat will identify the best possible methods and set-up to reach the right and deserving customers, thereby, increasing the count of repeated visits. </value>
+  </data>
+  <data name="products12ListDesc2" xml:space="preserve">
+    <value>Payxat is programmed to make your life easier, you have the option to set-up the promotions and once done, our application can continue to perform in an efficient manner with little or no human efforts and assistance. </value>
+  </data>
+  <data name="products12ListDesc3" xml:space="preserve">
+    <value>Rest assured, your customer’s data is safeguarded by implementing the best possible coding, design and security measures, we offer you the peace of mind and also the power to analyse and act on the data that you have at your fingertips. </value>
+  </data>
+  <data name="products13ListHeader1" xml:space="preserve">
+    <value>Match-making based on location</value>
+  </data>
+  <data name="products13Title" xml:space="preserve">
+    <value>We deliver the best results </value>
+  </data>
+  <data name="products13Desc" xml:space="preserve">
+    <value>Payxat can get you the best possible results in terms of result visits. Payxat scans customer database with preference to their hobbies and interest and it can range from anything like shopping, dining, travel and sport and we are here to get your customers to revisits the places that they love &amp; enjoy.   </value>
+  </data>
+  <data name="products13ListDesc1" xml:space="preserve">
+    <value>Auto generated leads and promotional offers to the customers who are in your neighbourhood.</value>
+  </data>
+  <data name="products13ListDesc2" xml:space="preserve">
+    <value>Payxat offers exceptional experience not only to your business, but also to your customers as well and happy customers mean positive feedback about your business.</value>
+  </data>
+  <data name="products13ListDesc3" xml:space="preserve">
+    <value>Once your business is linked with Payxat, your potential and regular customers will find all about you on the Internet. </value>
+  </data>
+  <data name="products13ListDesc4" xml:space="preserve">
+    <value>Payxat app will aid your potential customers to discover more about your offers, rewards, promotions and other kind benefits that are available. </value>
+  </data>
+  <data name="products13ListHeader4" xml:space="preserve">
+    <value>Payxat App for your Customers</value>
+  </data>
+  <data name="products13ListHeader3" xml:space="preserve">
+    <value>Get Discovered</value>
+  </data>
+  <data name="products13ListHeader2" xml:space="preserve">
+    <value>Conventional Experience</value>
+  </data>
+  <data name="loyaltyFirstTitle" xml:space="preserve">
+    <value>Discover the power of Payxat as a marketing tool</value>
+  </data>
+  <data name="pricing15Title" xml:space="preserve">
+    <value>How we do it</value>
+  </data>
+  <data name="pricing15ListHeader1" xml:space="preserve">
+    <value>Within 60 minutes of visiting your business, customers will receive a SMS message detailing their preferred or saved rewards </value>
+  </data>
+  <data name="pricing15ListHeader2" xml:space="preserve">
+    <value>A follow-up reminder that can be either be via in-app push notification, email or SMS, around two days before the reward is set to expire</value>
+  </data>
+  <data name="pricing15ListHeader3" xml:space="preserve">
+    <value>Customers who have not shown up within the past month (30 days) of saving or having indicated interest in your rewards program will receive a new reward for them to redeem </value>
+  </data>
+  <data name="pricing16Title" xml:space="preserve">
+    <value>You don’t need advanced skills, just Payxat is fine</value>
+  </data>
+  <data name="pricing16Desc" xml:space="preserve">
+    <value>Your business just turns into search engine friendly once they are on Payxat. Being on Payxat means, your business is more accessible to your potential customers and we are the medium for your customer to discover all good things about your business. Watch your business reach new heights with Payxat Merchant Profiles of your business. </value>
+  </data>
+  <data name="loyaltyretention11Title" xml:space="preserve">
+    <value>Tracking your customers is made easy</value>
+  </data>
+  <data name="loyaltyretention11Desc" xml:space="preserve">
+    <value>A few clicks here and there and viola, you can keep track or access history of your customer’s spending habits, the points that they have earned and the points that they have redeemed and henceforth. Every customer that is signed to the program is part of the database that offer you business intelligence and based on the report at your screen, you can customise offers that suit your customer’s spending habits. </value>
+  </data>
+  <data name="loyaltyretention11ListHeader1" xml:space="preserve">
+    <value>One-click import: </value>
+  </data>
+  <data name="loyaltyretention11ListHeader2" xml:space="preserve">
+    <value>Choose &amp; Send: </value>
+  </data>
+  <data name="loyaltyretention11ListHeader3" xml:space="preserve">
+    <value>Subdivision:</value>
+  </data>
+  <data name="loyaltyretention11ListDesc3" xml:space="preserve">
+    <value>Subdivision means the ability to send special offers and promotion to your special group of customers, say for example, an offer aimed at welcoming only the first-time customers or the offer related to kids to the customers who have kids.  </value>
+  </data>
+  <data name="loyaltyretention11ListDesc2" xml:space="preserve">
+    <value>Another feature that let you filter your customers based on parameters like age group, gender, spending habits, location etc. will further help you to send only tailor-made offers target at specific customers with matching profiles. </value>
+  </data>
+  <data name="loyaltyretention11ListDesc1" xml:space="preserve">
+    <value>Payxat enables to import customer details from excel, mailchimp, database or other kind of programs so that, you can save time and efforts and instead focus your complete attention to rewards and promotions.</value>
+  </data>
+  <data name="loyaltyretention12Title" xml:space="preserve">
+    <value>Simple way to redeem your rewards</value>
+  </data>
+  <data name="loyaltyretention12ListHeader1" xml:space="preserve">
+    <value>For your customers:</value>
+  </data>
+  <data name="loyaltyretention12ListHeader2" xml:space="preserve">
+    <value>For businesses: </value>
+  </data>
+  <data name="loyaltyretention12ListDesc1" xml:space="preserve">
+    <value>All your customer need to provide is the phone number in order to start earning reward points after the sign-in process and once they have enough points, they are free to redeem at their convenience.  </value>
+  </data>
+  <data name="loyaltyretention12ListDesc2" xml:space="preserve">
+    <value>Manage and track your rewards points from your phone or laptop with Payxat application and also from your POS machine. </value>
+  </data>
+  <data name="marketingautomation3Title" xml:space="preserve">
+    <value>Grace the occasion with the right reward</value>
+  </data>
+  <data name="marketingautomation3Desc" xml:space="preserve">
+    <value>Advancing further up the ladder in the automation arena, Payxat’s armoury is equipped with business intelligence to generate rewards that are sent out to specific group at specific times and occasions. First-time customers require a different kind of reward than your regular customer and we are here to help you to convert your first-time customers to regulars. </value>
+  </data>
+  <data name="marketingautomation3ListHeader1" xml:space="preserve">
+    <value>Rewards during sign-up</value>
+  </data>
+  <data name="marketingautomation3ListHeader2" xml:space="preserve">
+    <value>Revisit incentive</value>
+  </data>
+  <data name="marketingautomation3ListHeader3" xml:space="preserve">
+    <value>Customer engagement</value>
+  </data>
+  <data name="marketingautomation3ListHeader4" xml:space="preserve">
+    <value>Lost customers</value>
+  </data>
+  <data name="marketingautomation3ListHeader5" xml:space="preserve">
+    <value>Drive more business</value>
+  </data>
+  <data name="marketingautomation3ListHeader6" xml:space="preserve">
+    <value>Lookout for more</value>
+  </data>
+  <data name="marketingautomation3ListHeader7" xml:space="preserve">
+    <value>Make them to return</value>
+  </data>
+  <data name="marketingautomation3ListHeader8" xml:space="preserve">
+    <value>Birthdays &amp; Anniversaries </value>
+  </data>
+  <data name="marketingautomation3ListDesc8" xml:space="preserve">
+    <value>Be part of your customer’s birthday and anniversary celebration with tempting rewards to make their day even more special and blessed. </value>
+  </data>
+  <data name="marketingautomation3ListDesc7" xml:space="preserve">
+    <value>Special and dedicated rewards campaigns to compel your first-time customers to be regular and returning customers.</value>
+  </data>
+  <data name="marketingautomation3ListDesc6" xml:space="preserve">
+    <value>Customers that locate your business through Payxat App can also be targeted with rewards for their first visit to your store. </value>
+  </data>
+  <data name="marketingautomation3ListDesc5" xml:space="preserve">
+    <value>Targeting your regular customers will further increase sales and revenue. Payxat provides incentives and special offers to your repeat customers just to make them feel more special and welcome. </value>
+  </data>
+  <data name="marketingautomation3ListDesc4" xml:space="preserve">
+    <value>A majority of your customers might be just one-time visitors and Payxat even takes care of them by engaging with customers who are inactive between six months to one year.  </value>
+  </data>
+  <data name="marketingautomation3ListDesc3" xml:space="preserve">
+    <value>Payxat rewards program engages with your customers who are not active in the business activities for a period of 30 days or more. </value>
+  </data>
+  <data name="marketingautomation3ListDesc2" xml:space="preserve">
+    <value>A majority of customers do not return after their first visit but some promise of offering extra rewards can make them coming once again. </value>
+  </data>
+  <data name="marketingautomation3ListDesc1" xml:space="preserve">
+    <value>Your first-time customers who sign-up for the rewards program will kick-start their loyalty-rewards journey with an incentive or bonus points. </value>
+  </data>
+  <data name="english3Title" xml:space="preserve">
+    <value>Payxat Benefits</value>
+  </data>
+  <data name="english3ListHeader1" xml:space="preserve">
+    <value>Promotional tool for your business</value>
+  </data>
+  <data name="english3ListHeader2" xml:space="preserve">
+    <value>Earn commission on referrals</value>
+  </data>
+  <data name="english3ListHeader3" xml:space="preserve">
+    <value>Track your earnings</value>
+  </data>
+  <data name="english3ListHeader4" xml:space="preserve">
+    <value>One-click support</value>
+  </data>
+  <data name="english3ListDesc1" xml:space="preserve">
+    <value>We offer assistance to businesses to boost their business by offering features that are designed to help your marketing team. </value>
+  </data>
+  <data name="english3ListDesc2" xml:space="preserve">
+    <value>Earn additional income by being our partner in our referral programme and earn every time you refer business to Payxat. </value>
+  </data>
+  <data name="english3ListDesc3" xml:space="preserve">
+    <value>You can track your referral earnings with just a few clicks. </value>
+  </data>
+  <data name="english3ListDesc4" xml:space="preserve">
+    <value>Check our videos, brochures and flyers for more information about our referral programme</value>
+  </data>
+  <data name="legalSecondTitle" xml:space="preserve">
+    <value>Terms of Service</value>
+  </data>
+  <data name="legal11Title" xml:space="preserve">
+    <value>The Service</value>
+  </data>
+  <data name="legal11ListHeader1" xml:space="preserve">
+    <value>Your registration details: </value>
+  </data>
+  <data name="legal11ListHeader2" xml:space="preserve">
+    <value>Account confidentiality: </value>
+  </data>
+  <data name="legal11ListHeader3" xml:space="preserve">
+    <value>Amendment to service: </value>
+  </data>
+  <data name="legal11ListHeader4" xml:space="preserve">
+    <value>Rewards: </value>
+  </data>
+  <data name="legal11ListDesc1" xml:space="preserve">
+    <value>To access most of the features of Payxat, it is recommended that you register with your details and once you choose to register, it will be assumed by us that you are providing your accurate, correct, complete and updated details about you during the registration process. All kind of data that you provide will be governed by our privacy policy agreement. You must be at least 13 years of age to register and use Payxat. Also you agree that, you will provide only your phone number during the registration process. </value>
+  </data>
+  <data name="legal11ListDesc2" xml:space="preserve">
+    <value>You as a registered user is solely responsible for maintaining the confidentiality of your account and also all the activities that takes places under your account. You also agree to bring to our immediate notice, if you detect any kind of unauthorised usage of your account or the breach or lapse in security. It is advised to log-out of your account at the end of each session with Payxat and we are in no way responsible or liable for any kind of loss or damage that you might incur, either by failing to comply with the aforementioned security measure or by some means of external interference from undesired elements. </value>
+  </data>
+  <data name="legal11ListDesc3" xml:space="preserve">
+    <value>Payxat reserves the right to change, modify, alter or even discontinue either for some period of time or even permanently (partial or complete) with our without any notice. You agree that, Payxat (or any entities and third parties associated with the service) will not be held accountable, liable or responsible for suspension, alternation, modification or discontinuance of the service.</value>
+  </data>
+  <data name="legal11ListDesc4" xml:space="preserve">
+    <value>Payxat rewards that are part of the service are purely promotional in nature and these rewards are offered by merchants that are registered with Payxat and rewards are applicable to be redeemable in exchange for product or service with the corresponding merchant. In case, if the merchant fails to honour the reward, Payxat is not liable for any kind of compensation to the user. Also, the following points are applicable with respect to rewards on Payxat:</value>
+  </data>
+  <data name="legal22ListHeader1" xml:space="preserve">
+    <value>Rewards related to alcoholic beverages are subjected to the local laws</value>
+  </data>
+  <data name="legal22ListHeader2" xml:space="preserve">
+    <value>Rewards cannot be used to pay or barter for any other additional services, commodities or products unless permitted by the merchant. </value>
+  </data>
+  <data name="legal22ListHeader3" xml:space="preserve">
+    <value>Sale, transfer or gifting of reward is prohibited</value>
+  </data>
+  <data name="legal22ListHeader4" xml:space="preserve">
+    <value>Merchant is free to fix the redemption frequency</value>
+  </data>
+  <data name="legal22ListHeader5" xml:space="preserve">
+    <value>Any attempt made during redemption that does not comply with the policies of either merchant or Payxat will nullify the reward</value>
+  </data>
+  <data name="legal22ListHeader6" xml:space="preserve">
+    <value>Rewards cannot be combined or added with any other kind of rewards, promotions, discounts, coupons, gift cards etc. unless specified by the merchant</value>
+  </data>
+  <data name="legal22ListHeader7" xml:space="preserve">
+    <value>Reward redemption is limited to just one reward at a time and redemption of more than one reward at a time is at the sole discretion of the merchant. </value>
+  </data>
+  <data name="legal22ListHeader8" xml:space="preserve">
+    <value>Reward can be withdrawn or cancelled if it conflicts with the law </value>
+  </data>
+  <data name="legal22ListHeader9" xml:space="preserve">
+    <value>Payxat or merchant is not responsible if you are unable to redeem your rewards due to any kind of reason</value>
+  </data>
+  <data name="legal11ListHeader5" xml:space="preserve">
+    <value>Third-Party Services: </value>
+  </data>
+  <data name="legal11ListDesc5" xml:space="preserve">
+    <value>Payxat uses third party services like Facebook, Google or Twitter login and by opting to use for third party services for login, you are permitting Payxat to pass your account details to these services and the data and information that they store are governed by their security and privacy policies and Payxat shall have no any responsibility or liability for the way your information is being handled by the third parties. Also, the third party login is enabled to provide our customers with an addition option and it is not anyway related or connected with our endorsement of the third party and Payxat is not to be held responsible, liable or accountable if the third party decides to terminate your association with their services or shuts down its service.  Services on mobile devices: Payxat services can be access via phone or tablet and this might include data charges. Also, by using your mobile device, you agree to receive SMS, push-notification and emails on your device and you are responsible for the security of the data that reside in the device. Also, in case you change your phone number, you need to update your Payxat account with the same. </value>
+  </data>
+  <data name="legal12Title" xml:space="preserve">
+    <value>Condition of use</value>
+  </data>
+  <data name="legal12ListHeader1" xml:space="preserve">
+    <value>User content: </value>
+  </data>
+  <data name="legal12ListHeader2" xml:space="preserve">
+    <value>Not for commercial gain: </value>
+  </data>
+  <data name="legal12ListDesc1" xml:space="preserve">
+    <value>All kind of data and information like pictures, graphics, content, video, audio and everything related to the application is to be liked and related to the user from which such content originated, thereby, user and not Payxat must be held accountable for any kind of gross, offensive, malicious, or detrimental content. </value>
+  </data>
+  <data name="legal12ListDesc2" xml:space="preserve">
+    <value>The service offered by Payxat through its application is only for your personal usage and it must not be used for commercial gains. Unless agreed by Payxat, you are prohibited from sharing, transmitting, copying, reproducing, publishing, modifying, selling of the content and information related to Payxat services. </value>
+  </data>
+  <data name="legal13Title" xml:space="preserve">
+    <value>Intellectual Property Rights</value>
+  </data>
+  <data name="legal13ListHeader1" xml:space="preserve">
+    <value>Content and trademarks: </value>
+  </data>
+  <data name="legal13ListHeader2" xml:space="preserve">
+    <value>Third part content: </value>
+  </data>
+  <data name="legal13ListHeader3" xml:space="preserve">
+    <value>User content &amp; submissions: </value>
+  </data>
+  <data name="legal13ListHeader4" xml:space="preserve">
+    <value>Copyright information and removal of copyright materials: </value>
+  </data>
+  <data name="legal13ListDesc1" xml:space="preserve">
+    <value>All content, data and information is protected by the copyright law, patent and proprietary rights. By being part of Payxat, you agree to honour and respect intellectual property rights of Payxat and its merchants and you must not attempt to copy, transmit, modify, sell, resell, lease, distribute, loan as a part or as a whole the information, except the user content that you have uploaded on your own and which you agree that you possess complete rights to that content (user content). Also, you do not attempt to hack, copy, reverse engineer, data mine or run any kind of malicious code on the application in general.  Payxat name and the logo is the trademark of Payxat and this includes the application, services, merchant’s logo and the intellectual property rights related to the merchants that are registered with Payxat and user is forbidden to use any trademarked material unless authorised by Payxat or the merchant(s) that are registered with Payxat. </value>
+  </data>
+  <data name="legal13ListDesc2" xml:space="preserve">
+    <value>Payxat is not responsible and are not liable under any circumstances for any sort of content that is being posted on its application by users, merchant or any other third party and any Payxat is immune to any kind of damage resulting through content, including rewards or any other services offered on the app. Also, Payxat does not screen or moderate content posted by user or merchant and Payxat possess the rights to refuse to remove content that the user might find offensive or otherwise. </value>
+  </data>
+  <data name="legal13ListDesc3" xml:space="preserve">
+    <value>You as a user is solely responsible for the content that you post (user content) on Payxat and you declare that you will not post any content that is not your own and you do not own any rights to it. And, by posting content, you hereby grant Payxat, its merchant, third parties associated with Payxat, our marketing, advertising and social media partners and any other entity associated with Payxat the complete rights and freedom to use, modify, transmit, store, distribute, promote, sell, sublicense the user content and Payxat is not required to compensate any user for their content. Also, at Payxat, any suggestions, ideas, comments, emails, questions, submissions or any kind of info that you provide to Payxat via email, app, phone or any other medium will be considered as user content and the above mentioned rules are applicable to this form of content as well. </value>
+  </data>
+  <data name="legal33ListHeader1" xml:space="preserve">
+    <value>By mail:</value>
+  </data>
+  <data name="legal33ListDesc1" xml:space="preserve">
+    <value>Write your address</value>
+  </data>
+  <data name="legal33ListHeader2" xml:space="preserve">
+    <value>By email:</value>
+  </data>
+  <data name="legal33ListDesc2" xml:space="preserve">
+    <value>Write your email</value>
+  </data>
+  <data name="legal33ListHeader3" xml:space="preserve">
+    <value>By phone:</value>
+  </data>
+  <data name="legal33ListDesc3" xml:space="preserve">
+    <value>Write your phone</value>
+  </data>
+  <data name="legalThirdTitle" xml:space="preserve">
+    <value>Application providers and Third party links</value>
+  </data>
+  <data name="legalFourthTitle" xml:space="preserve">
+    <value>External links and third party websites </value>
+  </data>
+  <data name="legalFourthDesc" xml:space="preserve">
+    <value>Payxat service might include links or accessing of external websites that might also include details about rewards offered by merchants. Payxat is no way connected or associated with any kind of external links that arise out from Payxat application and you as a user is solely responsible for any kind of damages that you might incur by visiting or accessing all kind of external links and Payxat is shall not be held liable or responsible, either directly or indirectly. </value>
+  </data>
+  <data name="legal8Title" xml:space="preserve">
+    <value>Indemnity and Release</value>
+  </data>
+  <data name="legal8Desc" xml:space="preserve">
+    <value>You agree to release, indemnify and hold Payxat and its merchants, associates, affiliates, directors, promotes, employees any anyone connected or linked with Payxat harmless from and against any and all losses, lawsuits, threats, damages, propaganda, media campaigns, expenses including legal charges of any kind of harm, injury, damage, loss (including death) arising out of services or content. </value>
+  </data>
+  <data name="legal9Title" xml:space="preserve">
+    <value>Disclaimer</value>
+  </data>
+  <data name="legal9Desc" xml:space="preserve">
+    <value>Your usage of Payxat services is at your own risk and the services offered is provided by merchants registered with the application as ‘Merchant’ or Service Provider and Payxat is not to be connected, associated or linked with the services that is being offered by the merchants and renounce any kind of accountability that might incur with your usage or interaction of the Payxat application as a whole.  Furthermore, Payxat does not guarantee that the services offered will meet your requirements or fulfil your needs and expectations or the services will be free of any error, interruption or disruption. Also, we do not guarantee that the services and content on Payxat is accurate, reliable, trustworthy or even superior in quality &amp; value. </value>
+  </data>
+  <data name="legal4Title" xml:space="preserve">
+    <value>Limitation of liability</value>
+  </data>
+  <data name="legal4Desc" xml:space="preserve">
+    <value>If you are not satisfied with any portion of Payxat service or with these terms of service, the only solution for you is to just STOP using this service of ours. You agree to the fact that, we are in no way liable or to be held responsible for any kind of damages, losses or inconvenience of any kind that might be cause by your usage of our service, the inability to use our service, limitations and restrictions placed on our service, your misunderstanding about the usage of our service or even by unauthorised usage of our service. </value>
+  </data>
+  <data name="legal6Title" xml:space="preserve">
+    <value>Termination &amp; Suspension</value>
+  </data>
+  <data name="legal6Desc" xml:space="preserve">
+    <value>Payxat might suspend, terminate, limit your access or enforce restrictions on your account for use of service for any or no reason, with or without prior notice or warning. Your access to the Payxat services might also be suspended or terminated if you violate any of the clauses of this term of service agreement and your account will also be subjected to termination or suspension if Payxat finds you to be abusive, deceptive, fraudulent or possess criminal or illegal intent, moreover, any kind of violation with legal consequences will result you being referred to the appropriate law enforcement agencies. Deactivation of your account for these aforementioned reasons or cause will void all your rewards and your agreement with merchants that you are associated with. You also agree that, Payxat will not be liable or responsible for any kind of damages that you might incur due to the suspension or termination of your account. </value>
+  </data>
+  <data name="legal16Title" xml:space="preserve">
+    <value>Disputes</value>
+  </data>
+  <data name="legal16Desc" xml:space="preserve">
+    <value>In case of dispute between you and Merchant, Payxat will not bear any kind or responsibility or legal cost resulting from the dispute. Also, if this dispute is the result of the violation or breach of the agreement between Payxat and user, Payxat reserves the right to terminate user account as mentioned in the ‘Termination &amp; Suspension’ clause (see above). Any dispute arising out by the usage of Payxat services will be governed by the laws of the State of Kuwait.</value>
+  </data>
+  <data name="legal17Title" xml:space="preserve">
+    <value>Information and verification by SMS services</value>
+  </data>
+  <data name="legal17Desc" xml:space="preserve">
+    <value>To safeguard user’s privacy, Payxat enforces SMS authentication to verify user’s identity before granting them access to most of the Payxat services, although, certain sections of the application can be browsed without registering or verifying your account details. Registration with Payxat means, your wiliness to receive SMS alerts from Payxat the registered merchants at Payxat. </value>
+  </data>
+  <data name="legal18Title" xml:space="preserve">
+    <value>Additional Terms of Services &amp; Privacy Policies</value>
+  </data>
+  <data name="legal18Desc" xml:space="preserve">
+    <value>Apart from the above mentioned terms of services, you will be subjected to Privacy Policy (check our Privacy Policy section for more details) and also to additional terms of services that may apply when you use affiliate services, third-party content, merchant related policies or third-party applications (including external links). </value>
+  </data>
+  <data name="privacy20Title" xml:space="preserve">
+    <value>Information that are used</value>
+  </data>
+  <data name="privacy20Desc" xml:space="preserve">
+    <value>All kind of data and information provided by the user and also extracted by the Payxat platform will be put to productive usage in accordance with privacy policies as mentioned in this document. Also, if any particular information shared by the user for some specific purpose, the information will be used only for the purpose that was intended. Also, Payxat might use certain information of its users to contact or reach them in order to inform them about the additional services or features that might be of interest to the Payxat users. </value>
+  </data>
+  <data name="privacy20ListHeader1" xml:space="preserve">
+    <value>Merchant those are registered with Payxat: </value>
+  </data>
+  <data name="privacy20ListHeader2" xml:space="preserve">
+    <value>Business to business: </value>
+  </data>
+  <data name="privacy20ListHeader3" xml:space="preserve">
+    <value>Payxat entities: </value>
+  </data>
+  <data name="privacy20ListHeader4" xml:space="preserve">
+    <value>Employees and associated of Payxat: </value>
+  </data>
+  <data name="privacy20ListHeader5" xml:space="preserve">
+    <value>Your public profile data that you choose to make public: </value>
+  </data>
+  <data name="privacy20ListHeader6" xml:space="preserve">
+    <value>Information provided to law enforcement:</value>
+  </data>
+  <data name="privacy20ListDesc1" xml:space="preserve">
+    <value>Payxat provides user data to merchant in order to send rewards, validate rewards, to provide information regarding redemptions, offers and for other things that are required in order to provide effective merchant service to Payxat users. </value>
+  </data>
+  <data name="privacy20ListDesc3" xml:space="preserve">
+    <value>Data might be shared with other Payxat entity that has interest in running and functioning of the Payxat service and this kind of information sharing will be in accordance with the Payxat privacy policy. </value>
+  </data>
+  <data name="privacy20ListDesc4" xml:space="preserve">
+    <value>Certain information will be shared with employees in order to facilitate them with carrying out specific tasks and assignments like tracking rewards, sending emails, managing and maintain database, enforcing data security etc. </value>
+  </data>
+  <data name="privacy20ListDesc5" xml:space="preserve">
+    <value>Some part of the data such as First and Second Name, Profile Picture, Gender and Location are made public by default and can be viewed by other user (that are registered with Payxat). However, related information such as age, phone, email and birthday can be either made public (by the respective user) or can be hidden (private). </value>
+  </data>
+  <data name="privacy20ListDesc6" xml:space="preserve">
+    <value>In case, if this is required, Payxat will be forced to share user data with law enforcement. </value>
+  </data>
+  <data name="lovelocalnetworkFirstDesc" xml:space="preserve">
+    <value>Most of the small-scale businesses in and around residential &amp; commercial layouts are frequented by locals that live and work nearby and keeping this trend in mind, Payxat is pleased to introduce the concept of LocalBusiness Network for our users to connect more closely with businesses in their neighbourhood.</value>
+  </data>
+  <data name="Privacy5Title" xml:space="preserve">
+    <value>Information extracted by Payxat Platform</value>
+  </data>
+  <data name="Privacy5Desc" xml:space="preserve">
+    <value>Payxat as a website and application deploys cookies, log files, web beacons, tags and other forms of tracking technologies to automatically gather and collect some kind of user data including information that include total number of measures, user statistics and also information that are related to the user’s habits and preferences. User’s data is usually used by the Payxat platform for business intelligence, report generation and for usage by the operations team to provide optimum and enhanced user experience. Some part of the user data might be shared with certain third party application in order to provide the user with the required or desired output.  </value>
+  </data>
+  <data name="privacy20ListDesc2" xml:space="preserve">
+    <value>In case, at some point of time, if Payxat is being merged or is taken over by some other business entity, user data will be handed over to the new owners in accordance with the Payxat privacy policy. </value>
+  </data>
+  <data name="PromotionLandingTitle" xml:space="preserve">
+    <value>Promote your business</value>
+  </data>
+  <data name="PromotionLandingDesc" xml:space="preserve">
+    <value>Offers, rewards, gifts, promotions, incentives and more...</value>
+  </data>
+  <data name="PromotionFourthTitle" xml:space="preserve">
+    <value>More walk-in customers</value>
+  </data>
+  <data name="PromotionFourthDesc" xml:space="preserve">
+    <value>Want to celebrate occasions and festivals with special offers or perhaps you want to reward your customers with some additional surprise? Payxat has all the tools at your disposal with option to automate promotional campaign, send your offers in seconds.</value>
+  </data>
+  <data name="PromotionFourthListHeader1" xml:space="preserve">
+    <value>We assist</value>
+  </data>
+  <data name="PromotionFourthListHeader2" xml:space="preserve">
+    <value>Schedule your rewards</value>
+  </data>
+  <data name="PromotionFourthListHeader3" xml:space="preserve">
+    <value>Choose the medium</value>
+  </data>
+  <data name="PromotionFourthListHeader4" xml:space="preserve">
+    <value>In your hands</value>
+  </data>
+  <data name="PromotionFourthListDesc4" xml:space="preserve">
+    <value>Payxat works just fine with your phone or tablet and no matter where you are, you can send rewards at a moment’s notice. </value>
+  </data>
+  <data name="PromotionFourthListDesc3" xml:space="preserve">
+    <value>Send your offers and rewards by in-app push notification, email or text and rest assured, we will deliver it that way you want it to be. </value>
+  </data>
+  <data name="PromotionFourthListDesc2" xml:space="preserve">
+    <value>Schedule your promotions in order to send it at the right hour. </value>
+  </data>
+  <data name="PromotionFourthListDesc1" xml:space="preserve">
+    <value>If you are short of time, need to meet deadline or busy in your business activities, our autofill and autocorrect features will enable you to publish your rewards in a jiffy. </value>
+  </data>
+  <data name="Promotion5Title" xml:space="preserve">
+    <value>Informative dashboard</value>
+  </data>
+  <data name="Promotion6Title" xml:space="preserve">
+    <value>Target your customers</value>
+  </data>
+  <data name="Promotion7Title" xml:space="preserve">
+    <value>Grow with Payxat</value>
+  </data>
+  <data name="Promotion7Desc" xml:space="preserve">
+    <value>With features and tools that can help your business to generate more sales, Payxat is the number one choice for business that is looking forward to boost their volume &amp; sales. </value>
+  </data>
+  <data name="Promotion6Desc" xml:space="preserve">
+    <value>We know that, when it comes to marketing, targeted promotions is the way to go for your business and we are here to make this just right for you. Customise your targeted audience with Payxat , create categories based on customer preferences or classify targeted audiences based on promotion type and occasion. Sending rewards to the a few selected groups is bound to create more foot-traffic to your store. </value>
+  </data>
+  <data name="Promotion5Desc" xml:space="preserve">
+    <value>Payxat rely on the data and information that is being constantly fed into its system by businesses spread across multiple locales and territories. This organised, updated and systematic data provides detailed information in the dashboard section of the application for businesses to make discussion and also to monitor the performance of their campaigns.  </value>
+  </data>
+  <data name="masterlinkNameHome" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="masterlinkNameBusiness" xml:space="preserve">
+    <value>Business</value>
+  </data>
+  <data name="masterlinkNameHowItWorks" xml:space="preserve">
+    <value>How It Works</value>
+  </data>
+  <data name="masterlinkNameLoyalty" xml:space="preserve">
+    <value>Loyalty</value>
+  </data>
+  <data name="masterlinkNamePricing" xml:space="preserve">
+    <value>Pricing</value>
+  </data>
+  <data name="masterlinkNameProducts" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="masterlinkNameCustomer" xml:space="preserve">
+    <value>Customer Aquisition</value>
+  </data>
+  <data name="masterlinkNameLoyaltyRetention" xml:space="preserve">
+    <value>Loyalty Retention</value>
+  </data>
+  <data name="masterlinkNameMarketingAutomation" xml:space="preserve">
+    <value>Marketing Automation</value>
+  </data>
+  <data name="masterlinkNamePromotions" xml:space="preserve">
+    <value>Promotions</value>
+  </data>
+  <data name="masterlinkNameLoveLocalNetworks" xml:space="preserve">
+    <value>Love Local Networks</value>
+  </data>
+  <data name="masterlinkNameSmallBusinessMarketing" xml:space="preserve">
+    <value>Small Business Marketing</value>
+  </data>
+  <data name="masterlinkNameEnglish" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="masterlinkNameLegal" xml:space="preserve">
+    <value>Legal</value>
+  </data>
+  <data name="masterlinkNamePrivacy" xml:space="preserve">
+    <value>Privacy</value>
+  </data>
+  <data name="legalThirdDesc" xml:space="preserve">
+    <value>Payxat will be made available via website &lt;a href= “@Url.Action("Index", "Default")"&gt;www.Payxat.com &lt;/a&gt; and also through Google Play Store and Apple App Store (providers) and you agree to abide by the rules of the usage of the Payxat application as set forth by these providers and your license to the usage of this application can be blocked or revoked by the provider without any kind of prior notice. Also, provider is not obliged to provide maintenance or technical support with respect to the Payxat application.  In the event of any dispute arising from intellectual property right, Payxat and not the provider is responsible for any kind of property infringement violation. </value>
+  </data>
+  <data name="PrivacySecondDesc" xml:space="preserve">
+    <value>This privacy policy of Payxat is all about the way we collect, use, gather, share, store, protect, safeguard, secure the information and data of our users and also of the visitors who visit and use &lt;a href="@Url.Action("Index", "Default")"&gt; www.payxat.com &lt;/a&gt; and iOS and Android applications of Payxat.   By using the Payxat services (such as visiting website, registration as user, interacting with merchants, receiving and redeeming of rewards etc.) you agree to our Terms of Service and also all the clauses (described below) of this Privacy Policy. In case, you choose not to agree with our policies (Terms of Service and Privacy Policy), either in full or in part, may choose not to use Payxat services.   Apart from this Privacy Policy, you will be subjected to Terms of Service (check our Terms of Service section for more details) and also to additional terms of services (including their respective Privacy Policy) that may apply when you use affiliate services, third-party content, merchant related policies or third-party applications (including external links). </value>
+  </data>
+  <data name="legal13ListDesc4" xml:space="preserve">
+    <value>In case, you notice any of our users or merchant has posted any content that violates copyright law, then you are free to contact us and we will remove the copyright material from Payxat. You can &lt;a href="#" data-toggle="modal" data-target="#exampleModal" &gt; contact us here &lt;/a&gt;</value>
+  </data>
+  <data name="imgbusiness" xml:space="preserve">
+    <value>/Images/acd64d4b-ebe8-4885-ace2-2034449c444f.jpg</value>
+  </data>
+  <data name="imgloyalty" xml:space="preserve">
+    <value>/Images/effe94b0-95d3-4297-902d-3749e1043140.jpg</value>
+  </data>
+  <data name="imghome" xml:space="preserve">
+    <value>/Images/5502835a-8ad4-419e-b686-b5c96e07907a.jpeg</value>
+  </data>
+  <data name="legalSecondDesc" xml:space="preserve">
+    <value> Payxat is an application that provides its users with the option to earn loyalty or rewards points from the registered merchants its offerings (or services) of website &lt;a href="{Index}"&gt; www.payxat.com &lt;/a&gt;, mobile application and through the program that can be made to run through various devices, including tablets, laptops, POS machines etc. Payxat services are subjected to the following terms and conditions (which will be amended periodically) along with the privacy policy &lt;a href="@Url.Action("privacy", "Default")"&gt; www.payxat.com/privacy &lt;/a&gt;, Payxat possess the rights to change, add, delete or modify any part of this terms of service agreement without any prior notice and your usage of our services is a testimony to your acceptance of the revised terms and in case, if you do not agree with our terms, you are free to stop using our services. </value>
+  </data>
+</root>

@@ -1,0 +1,170 @@
+﻿@using Payxat.Helper
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+    <link rel="stylesheet" href="~/MyLayout/layout/css/bootstrap.css">
+    <!-- ===============Swipper=============== -->
+    <link rel="stylesheet" href="~/MyLayout/layout/css/swiper.css">
+
+    <link rel="stylesheet" href="~/MyLayout/layout/css/style.css">
+    <!-- ===============Favicon=============== -->
+    <link rel="shortcut icon" href="~/MyLayout/layout/images/favicon.ico">
+
+</head>
+
+<div class="sideMenu">
+    <i class="fas fa-times closs"></i>
+    <ul class="">
+        <li>
+            <a href="@Url.Action("Index", "Default")">@GR.GetResource("masterlinkNameHome")</a>
+
+        </li>
+
+        <li class="sideList1"> <a href="@Url.Action("Businesses", "Default")">@GR.GetResource("masterlinkNameBusiness")</a></li>
+        @*Business*@
+        <li>
+            <div class="sideListHidden1">
+                <a href="@Url.Action("Loyalty", "Default")">@GR.GetResource("masterlinkNameLoyalty")</a>
+                <a href="@Url.Action("HowItWorks", "Default")">@GR.GetResource("masterlinkNameHowItWorks")</a>
+                <a href="@Url.Action("Pricing", "Default")">@GR.GetResource("masterlinkNamePricing")</a>
+            </div>
+        </li>
+      
+        <li class="sideList2"> <a href="@Url.Action("Products", "Default")">@GR.GetResource("masterlinkNameProducts")</a></li>
+        
+        <li >
+            <div class="sideListHidden2">
+                <a href="@Url.Action("Products", "Default")">@GR.GetResource("masterlinkNameCustomer")</a>
+                <a href="@Url.Action("CustomerAcquisition", "Default")">@GR.GetResource("masterlinkNameLoyaltyRetention")</a>
+                <a href="@Url.Action("MarketingAutomation", "Default")">@GR.GetResource("masterlinkNameMarketingAutomation")</a>
+                <a href="@Url.Action("Promotion", "Default")">@GR.GetResource("masterlinkNamePromotions")</a>
+                <a href="@Url.Action("LoveLocalNetwork", "Default")">@GR.GetResource("masterlinkNameLoveLocalNetworks")</a>
+            </div>
+        </li>
+        @*Products*@
+        <li> <a href="@Url.Action("SmallBusinessMarketing", "Default")">@GR.GetResource("masterlinkNameSmallBusinessMarketing")</a></li>
+
+        <li> <a href="@Url.Action("English", "Default")">@GR.GetResource("masterlinkNameEnglish")</a></li>
+        <li> <a href="@Url.Action("Legal", "Default")">@GR.GetResource("masterlinkNameLegal")</a></li>
+        <li> <a href="@Url.Action("Privacy", "Default")">@GR.GetResource("masterlinkNamePrivacy")</a></li>
+
+    </ul>
+
+
+
+
+
+</div>
+
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <a href="@Url.Action("Index", "Default")"><img class="logo" src="~/MyLayout/layout/images/logo.png"></a>
+            <!--  social container -->
+            <div class="socialContainer">
+
+
+                <a href="@GR.GetString("SocialFacebook")"> <i class="fab fa-facebook-f"></i> </a>
+                <a href="@GR.GetString("SocialTwitter")"> <i class="fab fa-twitter-square"></i> </a>
+                <a href="@GR.GetString("SocialInstagram")"> <i class="fab fa-instagram"></i> </a>
+                <a href="@GR.GetString("SocialYoutube")"> <i class="fab fa-youtube"></i></a>
+                <i class="fas fa-bars open"></i>
+
+
+            </div>
+            <!-- end social container -->
+        </div>
+    </header>
+
+
+    @RenderBody()
+
+
+
+    <footer class="footerBG">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="~/MyLayout/layout/images/footerlogo.png" class="footerLogo" />
+                    <p class="pb-3 pt-2">@GR.GetResource("footerDesc")  is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+
+                    <h3>@GR.GetResource("footerFollowTitle")</h3>
+                    <div class="footerSocialContainer pt-2">
+
+
+                        <a href="@GR.GetString("SocialFacebook")"> <i class="fab fa-facebook-f"></i> </a>
+                        <a href="@GR.GetString("SocialTwitter")"> <i class="fab fa-twitter-square"></i> </a>
+                        <a href="@GR.GetString("SocialInstagram")"> <i class="fab fa-instagram"></i> </a>
+                        <a href="@GR.GetString("SocialYoutube")"> <i class="fab fa-youtube"></i></a>
+
+
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <h3>@GR.GetResource("footerContactusTitle")</h3>
+                    @using (Html.BeginForm("AddProjectC", "Default", FormMethod.Post, new { @id = "contactform" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" name="c_Date" value="@DateTime.Now" class="form-control" />
+
+                        <label>@GR.GetResource("contactmodalLabelName")</label>
+                        <input type="text" name="c_Name" class="form-control" required placeholder="@GR.GetResource("contactmodalName")" />
+
+                        <label>@GR.GetResource("contactmodalLabelPhone")</label>
+                        <input type="tel" name="c_Phone" class="form-control" required placeholder="@GR.GetResource("contactmodalPhone")" />
+
+                        <label>@GR.GetResource("contactmodalLabelEmail")</label>
+                        <input type="email" name="c_Email" class="form-control" required placeholder="@GR.GetResource("contactmodalEmail")" />
+
+                        <label>@GR.GetResource("contactmodalLabelMessage")</label>
+                        <textarea name="c_Message" rows="3" class="form-control" required placeholder="@GR.GetResource("contactmodalMessage")"> </textarea>
+
+                        <button type="submit" class="btn btn-primary floatRight mt-2 btnColor footerBtn"> @GR.GetResource("contactmodalbuttonSend")<i class="fas fa-paper-plane"></i></button>
+                    }
+
+                </div>
+               
+                    </div>
+                </div>
+
+        <div class="container-fluid finalFooter">
+            <h3>@GR.GetResource("footerTitleTitle")</h3>
+
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+    <!-- end html -->
+
+    <script src="~/MyLayout/layout/js/jquery.js"></script>
+    <script src="~/MyLayout/layout/js/popper.min.js"></script>
+    <script src="~/MyLayout/layout/js/bootstrap.min.js"></script>
+    <script src="~/MyLayout/layout/js/jscript.js"></script>
+    <script src="~/MyLayout/layout/js/swiper.min.js"></script>
+
+
+
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+</body>
+</html>

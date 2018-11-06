@@ -1,0 +1,87 @@
+﻿@using Payxat.Helper
+@{
+    ViewBag.Title = "Bussiness";
+    Layout = "~/Views/Shared/_Master.cshtml";
+}
+
+
+
+
+<div class="landing">
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide" style="background-image:url(@GR.GetResource("imgloyalty"))">
+                <h1>@GR.GetResource("bussinessLandingTitle")</h1>
+                <p>@GR.GetResource("bussinessLandingDesc")</p>
+
+            </div>
+
+
+
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+
+</div>
+<!-- end landing -->
+
+<section>
+    <div class="container">
+        <h1 class=" text-center centerTitle"> @GR.GetResource("bussinessFirstTitle") </h1>
+        <h1 class=" text-center centerTitle"> @GR.GetResource("bussinessFirstFirstTitle") </h1>
+    </div>
+</section>
+<!-- start section -->
+<section>
+    <div class="container">
+        <div class="sectionHeader">
+
+            <h1 class="sectionTitle"> @GR.GetResource("bussinessSecondTitle") </h1>
+
+        </div>
+
+        <p class="sectionDesc">
+            @GR.GetResource("bussinessSecondDesc")
+        </p>
+    </div>
+
+</section>
+<!-- end section -->
+<!-- start section -->
+<section>
+    <div class="container">
+        <div class="sectionHeader">
+
+            <h1 class="sectionTitle"> @GR.GetResource("bussinessThirdTitle") </h1>
+
+        </div>
+
+        <p class="sectionDesc">
+            @GR.GetResource("bussinessThirdDesc")
+        </p>
+    </div>
+
+</section>
+<!-- end section -->
+<!-- start section -->
+<section>
+    <div class="container">
+        <div class="sectionHeader">
+
+            <h1 class="sectionTitle"> @GR.GetResource("bussinessFourthTitle") </h1>
+
+        </div>
+
+        <p class="sectionDesc">
+            @GR.GetResource("bussinessFourthDesc")
+        </p>
+    </div>
+
+</section>
+<!-- end section -->
+<!-- start section -->

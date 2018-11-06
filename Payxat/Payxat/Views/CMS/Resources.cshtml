@@ -1,0 +1,208 @@
+﻿@model List<Payxat.Models.CMS.ResourcesModel>
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+
+<link rel="stylesheet" href="~/MyLayout/Admin/css/style.css" />
+<link rel="stylesheet" href="~/MyLayout/Admin/vendor/bootstrap/css/bootstrap.min.css">
+<!-- Font Awesome CSS-->
+<link rel="stylesheet" href="~/MyLayout/Admin/vendor/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="~/MyLayout/Admin/css/style.default.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,700">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+
+
+<section class="tables">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card">
+
+                    <div class="card-header d-flex align-items-center">
+                        <h3 class="h4">Date Table</h3>
+                    </div>
+
+                    <div class="card-body">
+
+                        <div class="form-group row">
+                            <div class="col-sm-3">
+                                <button class="btn btn-primary  new-record">Add New</button>
+                            </div>
+                        </div>
+
+                        <form action="@(Url.Action("AddResource", "CMS", new object { }))">
+                            <div class="form-group row">
+                                <label class="col-sm-1 form-control-label lbl-new-input">Name</label>
+                                <div class="col-sm-6">
+                                    <input type="text" id="addedResourceKey" name="addedResourceKey" class="form-control new-input " required>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label class="col-sm-1 form-control-label lbl-new-input">Value English</label>
+                                <div class="col-sm-6">
+                                    <input type="text" id="addedResourceValueEn" name="addedResourceValueEn" class="form-control new-input " required>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label class="col-sm-1 form-control-label lbl-new-input">Value Arabic</label>
+                                <div class="col-sm-6">
+                                    <input type="text" id="addedResourceValueAr" name="addedResourceValueAr" class="form-control new-input " required>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-1">
+                                <input type="submit" class="table-btn save" value="Save" />
+                            </div>
+
+                        </form>
+
+
+
+                        <table id="example" class="display" style="width:100%">
+                            <thead>
+
+                                <tr>
+                                    <th>#</th>
+                                    <th>Key</th>
+                                    <th>English Value</th>
+                                    <th>Arabic Value</th>
+                                    <th>EditAction</th>
+                                </tr>
+                            </thead>
+                            <tbody class="append">
+
+
+                                @foreach (var resource in Model.Select((values, index) => new { index, values }))
+                                {
+                                    <tr>
+                                        <td><label>@(resource.index + 1)</label></td>
+                                        <td><label id="lblresourceKey">@resource.values.ResourceKey</label></td>
+                                        <td>
+                                            <label id="lblResourceValueEn" class="table-lable-valueEn">@resource.values.ValueEn</label>
+                                            <input id="resourceValueEn" type="text" class="table-input form-control table-input-valueEn" value="@resource.values.ValueEn" style="display:none;" required />
+                                        </td>
+                                        <td>
+                                            <label id="lblResourceValueAr" class="table-lable-valueAr">@resource.values.ValueAr</label>
+                                            <input id="resourceValueAr" type="text" class="table-input form-control table-input-valueAr" value="@resource.values.ValueAr" style="display:none;" required />
+                                        </td>
+                                        <td>
+                                            <p>
+                                                <a id="btn_delete" class="float-right btn_delete"><i class="fas fa-trash-alt item-delete-rel "></i></a>
+                                                <a id="btn_edit" class="float-right btn_edit"><i class="far fa-edit item-delete-rel purple"></i></a>
+                                                <a id="btn_cancelEdit" class="float-right btn_cancelEdit" style="display:none"><i class="fas fa-times cancel-edit"></i></a>
+                                                <a id="btn_saveChanges" class="float-right btn_saveChanges" style="display:none"><i class="fas fa-check save-edit"></i></a>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                }
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <form method="post" id="UpdateResource" action="@(Url.Action("UpdateReource","CMS",new object { }))" hidden>
+        <input id="updateResourceKey" name="ResourceKey" />
+        <input id="updateResourceValueAr" name="ResourceValueAr" />
+        <input id="updateResourceValueEn" name="ResourceValueEn" />
+    </form>
+</section>
+
+
+<br />
+
+<button type="button" style="float: right" class="btn btn-info btn-lg" data-toggle="modal" data-target="#resourceModal">Add New Resource</button>
+
+<script>
+
+    $(document).ready(function () {
+        $('#example').DataTable({
+            "lengthMenu": [[20, 50, 100, -1], [20,50,100, "All"]],
+            "columnDefs": [
+                { "searchable": true, "targets": 0 },
+                { "searchable": true, "targets": 1 },
+                { "searchable": false, "targets": 2 }
+            ]
+        });
+
+        var table = $('#example').DataTable();
+    });
+
+
+
+    $(".new-record").click(function () {
+        $(".new-input , .lbl-new-input , .save").show();
+        $(this).hide();
+    });
+
+    $(".btn_edit").click(function () {
+        setEditRow($(this).parent().closest("tr"), true)
+    });
+
+    $(".btn_cancelEdit").click(function () {
+        setEditRow ($(this).parent().closest("tr"),false)
+    });
+
+    $(".btn_delete").click(function () {
+        if (confirm('Do you whant to delete this resource?')) {
+            key = $(this).parent().closest("tr").find("#lblresourceKey").text();
+            window.location = "@Url.Action("RemoveResource", "CMS")" + "/" + key;
+        }
+    });
+
+    $(".btn_saveChanges").click(function () {
+        debugger;
+        key = $(this).parent().closest("tr").find("#lblresourceKey").text();
+        valuAr = $(this).parent().closest("tr").find("#resourceValueAr").val();
+        valuEn = $(this).parent().closest("tr").find("#resourceValueEn").val();
+        $("#updateResourceKey").val(key);
+        $("#updateResourceValueAr").val(valuAr);
+        $("#updateResourceValueEn").val(valuEn);
+        $("#UpdateResource").submit();
+    });
+
+    function setEditRow($row, applyEdit)
+    {
+        if (applyEdit == true)
+        {
+            $row.find("#btn_delete").hide();
+            $row.find("#btn_edit").hide();
+            $row.find("#btn_saveChanges").show();
+            $row.find("#btn_cancelEdit").show();
+
+            $row.find(".table-lable-valueAr").hide();
+            $row.find(".table-lable-valueEn").hide();
+            $row.find(".table-input-valueAr").show();
+            $row.find(".table-input-valueEn").show();
+
+            $row.find(".table-input-valueAr").val($row.find(".table-lable-valueAr").text());
+            $row.find(".table-input-valueEn").val($row.find(".table-lable-valueEn").text());
+        }
+        else
+        {
+            $row.find("#btn_delete").show();
+            $row.find("#btn_edit").show();
+            $row.find("#btn_saveChanges").hide();
+            $row.find("#btn_cancelEdit").hide();
+
+            $row.find(".table-lable-valueAr").show();
+            $row.find(".table-lable-valueEn").show();
+            $row.find(".table-input-valueAr").hide();
+            $row.find(".table-input-valueEn").hide();
+        }
+    }
+
+
+
+</script>

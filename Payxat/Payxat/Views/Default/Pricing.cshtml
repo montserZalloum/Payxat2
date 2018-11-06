@@ -1,0 +1,77 @@
+﻿@using Payxat.Helper
+@{
+    ViewBag.Title = "pricingg";
+    Layout = "~/Views/Shared/_Master.cshtml";
+}
+
+
+
+<div class="landing">
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide" style="background-image:url(@GR.GetResource("imgpricing"))">
+                <h1>@GR.GetResource("pricinggLandingTitle")</h1>
+                <p>@GR.GetResource("pricinggLandingDesc")</p>
+
+            </div>
+
+
+
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+
+</div>
+<!-- end landing -->
+<!-- start section -->
+<section>
+    <div class="container">
+        <div class="sectionHeader">
+
+            <h1 class="sectionTitle"> @GR.GetResource("pricingg11Title") </h1>
+
+        </div>
+
+
+        <ul class="list">
+            <li> 	@GR.GetResource("pricingg11ListHeader1") </li>
+
+            <li> 		@GR.GetResource("pricingg11ListHeader2") </li>
+            <li> 	@GR.GetResource("pricingg11ListHeader3") </li>
+
+        </ul>
+    </div>
+
+</section>
+<!-- end section -->
+
+<section>
+    <div class="container">
+        <div class="sectionHeader">
+
+            <h1 class="sectionTitle"> @GR.GetResource("pricingg12Title") </h1>
+
+        </div>
+
+        <ul class="list2">
+            <li> 	 @GR.GetResource("pricingg12ListHeader1") </li>
+            <p class="listPadding"> @GR.GetResource("pricingg12ListDesc1") </p>
+            <li> 	 @GR.GetResource("pricingg12ListHeader2") </li>
+            <p class="listPadding"> @GR.GetResource("pricingg12ListDesc2") </p>
+            <li> 	 @GR.GetResource("pricingg12ListHeader3") </li>
+            <p class="listPadding"> @GR.GetResource("pricingg12ListDesc3") </p>
+
+        </ul>
+    </div>
+
+</section>
+
+
+
+
+

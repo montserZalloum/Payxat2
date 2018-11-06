@@ -1,0 +1,94 @@
+﻿@using Payxat.Helper
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Master.cshtml";
+}
+
+
+<div class="landing" >
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+          
+            <div class="swiper-slide" style="background-image:url(@GR.GetResource("imghome"))">
+                <h1>@GR.GetResource("homeLandingTitle")</h1>
+                <p>@GR.GetResource("homeLandingDesc")</p>
+
+            </div>
+          
+        
+
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+    
+
+</div>
+<!-- end landing -->
+
+<!-- start section -->
+<section>
+    <div class="container">
+        <div class="sectionHeader">
+
+            <h1 class="sectionTitle"> @GR.GetResource("homeFirstTitle") </h1>
+
+        </div>
+
+        <p class="sectionDesc">
+            @GR.GetResource("homeFirstDesc")
+        </p>
+    </div>
+
+</section>
+<!-- end section -->
+<!-- start section -->
+<section>
+    <div class="container">
+        <div class="sectionHeader">
+
+            <h1 class="sectionTitle"> @GR.GetResource("homeSecondTitle") </h1>
+
+        </div>
+
+        <p class="sectionDesc">
+            @GR.GetResource("homeSecondDesc")
+        </p>
+    </div>
+
+</section>
+<!-- end section -->
+<!-- start section -->
+<section>
+    <div class="container">
+        <div class="sectionHeader">
+
+            <h1 class="sectionTitle"> @GR.GetResource("homeThirdTitle") </h1>
+
+        </div>
+
+        <p class="sectionDesc">
+            @GR.GetResource("homeThirdDesc")
+        </p>
+    </div>
+
+</section>
+<!-- end section -->
+<!-- start section -->
+<section>
+    <div class="container">
+        <div class="sectionHeader">
+
+            <h1 class="sectionTitle"> @GR.GetResource("homeFourthTitle") </h1>
+
+        </div>
+
+        <p class="sectionDesc">
+            @GR.GetResource("homeFourthDesc")
+        </p>
+    </div>
+
+</section>
+<!-- end section -->

@@ -1,0 +1,72 @@
+﻿@using Payxat.Helper
+@{
+    ViewBag.Title = "english";
+    Layout = "~/Views/Shared/_Master.cshtml";
+}
+
+
+<div class="landing">
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide" style="background-image:url(@GR.GetResource("imgenglish"))">
+                <h1>@GR.GetResource("englishLandingTitle")</h1>
+                <p>@GR.GetResource("englishLandingDesc")</p>
+
+            </div>
+
+
+
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+
+</div>
+<!-- end landing -->
+<!-- start section -->
+<section>
+    <div class="container">
+        <div class="sectionHeader">
+
+            <h1 class="sectionTitle"> @GR.GetResource("englishSecondTitle") </h1>
+
+        </div>
+
+        <p class="sectionDesc">
+            @GR.GetResource("englishSecondDesc")
+        </p>
+    </div>
+
+</section>
+<!-- end section -->
+<!-- start section -->
+<section>
+    <div class="container">
+        <div class="sectionHeader">
+
+            <h1 class="sectionTitle"> @GR.GetResource("english3Title") </h1>
+
+        </div>
+
+
+        <ul class="list2">
+            <li> 	 @GR.GetResource("english3ListHeader1") </li>
+            <p class="listPadding"> @GR.GetResource("english3ListDesc1") </p>
+            <li> 	 @GR.GetResource("english3ListHeader2") </li>
+            <p class="listPadding"> @GR.GetResource("english3ListDesc2") </p>
+            <li> 	 @GR.GetResource("english3ListHeader3") </li>
+            <p class="listPadding"> @GR.GetResource("english3ListDesc3") </p>
+            <li> 	 @GR.GetResource("english3ListHeader4") </li>
+            <p class="listPadding"> @GR.GetResource("english3ListDesc4") </p>
+
+
+
+        </ul>
+    </div>
+
+</section>
+<!-- end section -->
