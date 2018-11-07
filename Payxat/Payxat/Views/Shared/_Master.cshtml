@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="~/MyLayout/layout/css/style.css">
     <!-- ===============Favicon=============== -->
     <link rel="shortcut icon" href="~/MyLayout/layout/images/favicon.ico">
-
+    <title>Payxat</title>
 </head>
 
 <div class="sideMenu">
@@ -93,7 +93,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <img src="~/MyLayout/layout/images/footerlogo.png" class="footerLogo" />
-                    <p class="pb-3 pt-2">@GR.GetResource("footerDesc")  is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                    <p class="pb-3 pt-2">@GR.GetResource("footerDesc") </p>
 
                     <h3>@GR.GetResource("footerFollowTitle")</h3>
                     <div class="footerSocialContainer pt-2">
@@ -125,7 +125,7 @@
                         <input type="email" name="c_Email" class="form-control" required placeholder="@GR.GetResource("contactmodalEmail")" />
 
                         <label>@GR.GetResource("contactmodalLabelMessage")</label>
-                        <textarea name="c_Message" rows="3" class="form-control" required placeholder="@GR.GetResource("contactmodalMessage")"> </textarea>
+                        <textarea name="c_Message" rows="3" class="form-control" required>@GR.GetResource("contactmodalMessage")</textarea>
 
                         <button type="submit" class="btn btn-primary floatRight mt-2 btnColor footerBtn"> @GR.GetResource("contactmodalbuttonSend")<i class="fas fa-paper-plane"></i></button>
                     }

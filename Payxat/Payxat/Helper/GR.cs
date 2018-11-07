@@ -16,13 +16,13 @@ namespace Payxat.Helper
         public static List<string[]> links = new List<string[]>()
        {
             new string []{"{url:Index}", new System.Web.Mvc.UrlHelper(HttpContext.Current.Request.RequestContext).Action("Index", "Default") },
-            new string []{"{url:Businesses}", new System.Web.Mvc.UrlHelper(HttpContext.Current.Request.RequestContext).Action("Businesses", "Default") },
-            new string []{"AA", new System.Web.Mvc.UrlHelper(HttpContext.Current.Request.RequestContext).Action("Index", "Default") },
-            new string []{"AA", new System.Web.Mvc.UrlHelper(HttpContext.Current.Request.RequestContext).Action("Index", "Default") },
-            new string []{"AA", new System.Web.Mvc.UrlHelper(HttpContext.Current.Request.RequestContext).Action("Index", "Default") },
-            new string []{"AA", new System.Web.Mvc.UrlHelper(HttpContext.Current.Request.RequestContext).Action("Index", "Default") },
-            new string []{"AA", new System.Web.Mvc.UrlHelper(HttpContext.Current.Request.RequestContext).Action("Index", "Default") },
-            new string []{"AA", new System.Web.Mvc.UrlHelper(HttpContext.Current.Request.RequestContext).Action("Index", "Default") }
+            new string []{ "{url:Privacy}", new System.Web.Mvc.UrlHelper(HttpContext.Current.Request.RequestContext).Action("Privacy", "Default") }
+            
+            
+            
+            
+            
+             
 
        };
 
@@ -83,7 +83,7 @@ namespace Payxat.Helper
         {
             foreach (string[] lnk in links)
             {
-                value.Replace(lnk[0], lnk[1]);
+                value = value.Replace(lnk[0], lnk[1]);
             }
 
 

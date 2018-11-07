@@ -52,7 +52,7 @@ namespace Payxat.Controllers
             {
                 string imgName = Guid.NewGuid().ToString() + Path.GetExtension(home.FileName);
                 string saveName = Server.MapPath("~/Images") + $"/{imgName}";
-                string saveNameDB = $"/Payxat/Images/{imgName}";
+                string saveNameDB = $"../Images/{imgName}";
                 home.SaveAs(saveName);
                 ResourceHelper.AddUpdateResource("imghome", saveNameDB, null);
             }
@@ -61,7 +61,7 @@ namespace Payxat.Controllers
             {
                 string imgName = Guid.NewGuid().ToString() + Path.GetExtension(business.FileName);
                 string saveName = Server.MapPath("~/Images") + $"/{imgName}";
-                string saveNameDB = $"/Images/{imgName}";
+                string saveNameDB = $"../Images/{imgName}";
                 business.SaveAs(saveName);
                 ResourceHelper.AddUpdateResource("imgbusiness", saveNameDB, null);
             }
@@ -70,7 +70,7 @@ namespace Payxat.Controllers
             {
                 string imgName = Guid.NewGuid().ToString() + Path.GetExtension(loyalty.FileName);
                 string saveName = Server.MapPath("~/Images") + $"/{imgName}";
-                string saveNameDB = $"/Images/{imgName}";
+                string saveNameDB = $"/Payxat/Images/{imgName}";
                 loyalty.SaveAs(saveName);
                 ResourceHelper.AddUpdateResource("imgloyalty", saveNameDB, null);
             }
@@ -79,7 +79,7 @@ namespace Payxat.Controllers
             {
                 string imgName = Guid.NewGuid().ToString() + Path.GetExtension(howitworks.FileName);
                 string saveName = Server.MapPath("~/Images") + $"/{imgName}";
-                string saveNameDB = $"/Images/{imgName}";
+                string saveNameDB = $"/Payxat/Images/{imgName}";
                 howitworks.SaveAs(saveName);
                 ResourceHelper.AddUpdateResource("imghowitworks", saveNameDB, null);
             }
@@ -88,7 +88,7 @@ namespace Payxat.Controllers
             {
                 string imgName = Guid.NewGuid().ToString() + Path.GetExtension(pricing.FileName);
                 string saveName = Server.MapPath("~/Images") + $"/{imgName}";
-                string saveNameDB = $"/Images/{imgName}";
+                string saveNameDB = $"/Payxat/Images/{imgName}";
                 pricing.SaveAs(saveName);
                 ResourceHelper.AddUpdateResource("imgpricing", saveNameDB, null);
             }
@@ -97,7 +97,7 @@ namespace Payxat.Controllers
             {
                 string imgName = Guid.NewGuid().ToString() + Path.GetExtension(products.FileName);
                 string saveName = Server.MapPath("~/Images") + $"/{imgName}";
-                string saveNameDB = $"/Images/{imgName}";
+                string saveNameDB = $"/Payxat/Images/{imgName}";
                 products.SaveAs(saveName);
                 ResourceHelper.AddUpdateResource("imgproducts", saveNameDB, null);
             }
@@ -106,7 +106,7 @@ namespace Payxat.Controllers
             {
                 string imgName = Guid.NewGuid().ToString() + Path.GetExtension(customeracquistion.FileName);
                 string saveName = Server.MapPath("~/Images") + $"/{imgName}";
-                string saveNameDB = $"/Images/{imgName}";
+                string saveNameDB = $"/Payxat/Images/{imgName}";
                 customeracquistion.SaveAs(saveName);
                 ResourceHelper.AddUpdateResource("imgcustomeracquistion", saveNameDB, null);
             }
@@ -115,7 +115,7 @@ namespace Payxat.Controllers
             {
                 string imgName = Guid.NewGuid().ToString() + Path.GetExtension(loyaltyretention.FileName);
                 string saveName = Server.MapPath("~/Images") + $"/{imgName}";
-                string saveNameDB = $"/Images/{imgName}";
+                string saveNameDB = $"/Payxat/Images/{imgName}";
                 loyaltyretention.SaveAs(saveName);
                 ResourceHelper.AddUpdateResource("imgloyaltyretention", saveNameDB, null);
             }
@@ -124,7 +124,7 @@ namespace Payxat.Controllers
             {
                 string imgName = Guid.NewGuid().ToString() + Path.GetExtension(marketingautomation.FileName);
                 string saveName = Server.MapPath("~/Images") + $"/{imgName}";
-                string saveNameDB = $"/Images/{imgName}";
+                string saveNameDB = $"/Payxat/Images/{imgName}";
                 marketingautomation.SaveAs(saveName);
                 ResourceHelper.AddUpdateResource("imgmarketingautomation", saveNameDB, null);
             }
@@ -133,7 +133,7 @@ namespace Payxat.Controllers
             {
                 string imgName = Guid.NewGuid().ToString() + Path.GetExtension(promotions.FileName);
                 string saveName = Server.MapPath("~/Images") + $"/{imgName}";
-                string saveNameDB = $"/Images/{imgName}";
+                string saveNameDB = $"/Payxat/Images/{imgName}";
                 promotions.SaveAs(saveName);
                 ResourceHelper.AddUpdateResource("imgpromotions", saveNameDB, null);
             }
@@ -142,7 +142,7 @@ namespace Payxat.Controllers
             {
                 string imgName = Guid.NewGuid().ToString() + Path.GetExtension(lovelocalnetwork.FileName);
                 string saveName = Server.MapPath("~/Images") + $"/{imgName}";
-                string saveNameDB = $"/Images/{imgName}";
+                string saveNameDB = $"/Payxat/Images/{imgName}";
                 lovelocalnetwork.SaveAs(saveName);
                 ResourceHelper.AddUpdateResource("imglovelocalnetwork", saveNameDB, null);
             }
@@ -151,7 +151,7 @@ namespace Payxat.Controllers
             {
                 string imgName = Guid.NewGuid().ToString() + Path.GetExtension(smallbusinessmarketing.FileName);
                 string saveName = Server.MapPath("~/Images") + $"/{imgName}";
-                string saveNameDB = $"/Images/{imgName}";
+                string saveNameDB = $"/Payxat/Images/{imgName}";
                 smallbusinessmarketing.SaveAs(saveName);
                 ResourceHelper.AddUpdateResource("imgsmallbusinessmarketing", saveNameDB, null);
             }
@@ -160,7 +160,7 @@ namespace Payxat.Controllers
             {
                 string imgName = Guid.NewGuid().ToString() + Path.GetExtension(english.FileName);
                 string saveName = Server.MapPath("~/Images") + $"/{imgName}";
-                string saveNameDB = $"/Images/{imgName}";
+                string saveNameDB = $"/Payxat/Images/{imgName}";
                 english.SaveAs(saveName);
                 ResourceHelper.AddUpdateResource("imgenglish", saveNameDB, null);
             }
